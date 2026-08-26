@@ -161,6 +161,12 @@
     <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  <url>
+    <loc>https://www.robotichina.com/news.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
   </url>
   <url>
     <loc>https://www.robotichina.com/about.html</loc>

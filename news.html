@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>China Robotics News — Latest Industry Dispatches | China Robotics Insider</title>
+  <meta name="description" content="The latest news on China’s robotics industry — humanoid events, company milestones, products and real-world deployments, with links to original reports.">
+  <link rel="canonical" href="https://www.robotichina.com/news.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="China Robotics Insider">
+  <meta property="og:title" content="China Robotics News">
+  <meta property="og:url" content="https://www.robotichina.com/news.html">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="China Robotics Insider home">
+      <svg class="logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="8" y="16" width="24" height="15" rx="4" fill="#2563eb"/>
+        <rect x="5" y="12" width="4" height="9" rx="2" fill="#f59e0b"/>
+        <rect x="31" y="12" width="4" height="9" rx="2" fill="#f59e0b"/>
+        <rect x="13" y="20" width="4" height="4" rx="1" fill="#fff"/>
+        <rect x="23" y="20" width="4" height="4" rx="1" fill="#fff"/>
+        <rect x="18" y="27" width="4" height="4" rx="1" fill="#fff"/>
+        <circle cx="9" cy="30" r="2.4" fill="#0d9488"/>
+        <circle cx="31" cy="30" r="2.4" fill="#0d9488"/>
+      </svg>
+      <span>China Robotics <b>Insider</b></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="news.html" class="active">Companies</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="articles.html">Insights</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="nav-search">
+          <form class="search-form" action="search.html" method="get" role="search">
+            <input type="search" name="q" placeholder="Search…" aria-label="Search this site">
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container ph-inner">
+      <span class="kicker">News</span>
+      <h1>China Robotics News</h1>
+      <p>Fresh dispatches on China’s robotics industry — events, company milestones, products and deployments. Each headline links straight to the original report.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Latest dispatches</span>
+        <h2>This week in Chinese robotics</h2>
+        <p>Curated from Chinese and international press, with direct links to the original sources.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card news-item">
+          <span class="news-date">Aug 25, 2026 · Events</span>
+          <h3><a href="http://www.globaltimes.cn/page/202608/1369001.shtml" target="_blank" rel="noopener">China's humanoid robots break records at World Humanoid Robot Games</a></h3>
+          <p>Beijing's “Tiangong” humanoid clocked 8.86 seconds in the 100-metre sprint at the World Humanoid Robot Games in Beijing — beating the human men's world record — in a games that drew global attention to China's robot athletics.</p>
+          <div class="news-src">Source: <a href="http://www.globaltimes.cn/page/202608/1369001.shtml" target="_blank" rel="noopener">Global Times ↗</a></div>
+        </article>
+        <article class="card news-item">
+          <span class="news-date">Aug 25, 2026 · Events</span>
+          <h3><a href="http://www.chinaview.cn/20260825/6cbdd8e20a9d4e3a9eff6cc0d1da89f8/c.html" target="_blank" rel="noopener">Humanoid robots shattered human records in the 100m and 400m</a></h3>
+          <p>At the second World Humanoid Robot Games (Aug 22–26), humanoid robots broke human records on the track — a striking leap from last year, when viral clips showed robots freezing at the starting line or veering off course.</p>
+          <div class="news-src">Source: <a href="http://www.chinaview.cn/20260825/6cbdd8e20a9d4e3a9eff6cc0d1da89f8/c.html" target="_blank" rel="noopener">Xinhua ↗</a></div>
+        </article>
+        <article class="card news-item">
+          <span class="news-date">Aug 26, 2026 · Products</span>
+          <h3><a href="http://www.xinhuanet.com/20260826/323c391046bd4563a23d9224ffe90447/c.html" target="_blank" rel="noopener">Your future tennis partner may be a robot</a></h3>
+          <p>Galaxy General’s humanoid played tennis with former pro Zheng Jie at the games’ opening. Founder Wang He says the robot can serve, return, save and lob — and it gets back up on its own after falling.</p>
+          <div class="news-src">Source: <a href="http://www.xinhuanet.com/20260826/323c391046bd4563a23d9224ffe90447/c.html" target="_blank" rel="noopener">Xinhua ↗</a></div>
+        </article>
+        <article class="card news-item">
+          <span class="news-date">Aug 21, 2026 · Events</span>
+          <h3><a href="http://www.xinhuanet.com/digital/20260821/e172222483dc4d75a357145caa74d9d0/c.html" target="_blank" rel="noopener">2026 World Robot Conference opens; Galaxy General unveils bipedal humanoid Galbot ET1</a></h3>
+          <p>With 300+ exhibitors and 150+ new products, the 2026 World Robot Conference in Beijing showcased the industry’s momentum. Galaxy General debuted its bipedal Galbot ET1 humanoid and its self-developed “Galaxy Brain” embodied foundation model.</p>
+          <div class="news-src">Source: <a href="http://www.xinhuanet.com/digital/20260821/e172222483dc4d75a357145caa74d9d0/c.html" target="_blank" rel="noopener">Xinhua ↗</a></div>
+        </article>
+        <article class="card news-item">
+          <span class="news-date">Aug 21, 2026 · Industry</span>
+          <h3><a href="https://www.cctvplus.com/news/20260821/8495403.shtml" target="_blank" rel="noopener">China leads global humanoid robot growth: report</a></h3>
+          <p>In the first half of 2026, China’s humanoid robot shipments accounted for 97 percent of the global total, according to a report covered by CCTV+, which also highlighted China’s push on standards, talent, cooperation and innovation infrastructure.</p>
+          <div class="news-src">Source: <a href="https://www.cctvplus.com/news/20260821/8495403.shtml" target="_blank" rel="noopener">CCTV+ ↗</a></div>
+        </article>
+        <article class="card news-item">
+          <span class="news-date">Aug 25, 2026 · Companies</span>
+          <h3><a href="http://en.people.cn/n3/2026/0825/c90000-20492071.html" target="_blank" rel="noopener">IPO, athletic feats and mass deployment show China's robot momentum</a></h3>
+          <p>Unitree’s revenue neared 1.7 billion yuan in 2025 and reached ~1.15 billion yuan in H1 2026, up 48.5% year on year — with the company vertically integrating motors, reducers, controllers and LiDAR in-house.</p>
+          <div class="news-src">Source: <a href="http://en.people.cn/n3/2026/0825/c90000-20492071.html" target="_blank" rel="noopener">People's Daily Online ↗</a></div>
+        </article>
+        <article class="card news-item">
+          <span class="news-date">Aug 23, 2026 · Deployments</span>
+          <h3><a href="http://www.china.org.cn/2026-08/23/content_118660262.shtml" target="_blank" rel="noopener">China's humanoid robots move from exhibition floors to real-world applications</a></h3>
+          <p>Use cases are expanding into emergency response, household services, industrial production and pharma logistics — including the LINGLOONG v2.0, described as the world’s first firefighting humanoid robot.</p>
+          <div class="news-src">Source: <a href="http://www.china.org.cn/2026-08/23/content_118660262.shtml" target="_blank" rel="noopener">China.org.cn ↗</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band">
+        <div>
+          <h3>Context for the headlines</h3>
+          <p>News moves fast. Our guides explain the companies and the people behind the headlines.</p>
+        </div>
+        <a class="btn btn-primary" href="articles.html">Read the insights</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a class="brand" href="index.html" style="color:#fff;">
+          <span>China Robotics <b style="color:#fbbf24;">Insider</b></span>
+        </a>
+        <p>An independent English-language guide to China's robotics industry — founders, companies, history and products.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="history.html">Development History</a>
+        <a href="people.html">Founders &amp; Key Figures</a>
+        <a href="companies.html">Companies &amp; Startups</a>
+        <a href="products.html">Cutting-edge Products</a>
+      </div>
+      <div>
+        <h4>Company focus</h4>
+        <a href="companies.html#humanoid">Humanoid &amp; Embodied AI</a>
+        <a href="companies.html#industrial">Industrial Robots</a>
+        <a href="companies.html#service">Service &amp; Cleaning</a>
+        <a href="companies.html#components">Components &amp; Ecosystem</a>
+      </div>
+      <div>
+        <h4>Insights</h4>
+        <a href="articles.html">All Articles</a>
+        <a href="humanoid-robot-race.html">The Humanoid Robot Race</a>
+        <a href="china-robot-vacuums.html">Robot Vacuums</a>
+        <a href="china-industrial-robots.html">Industrial Robots</a>
+        <a href="robot-startup-funding.html">Startup Funding</a>
+      </div>
+
+      <div>
+        <h4>Site</h4>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> China Robotics Insider. All rights reserved.</span>
+      <span>Independent editorial coverage · Not affiliated with any company listed.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
