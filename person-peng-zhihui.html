@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peng Zhihui — Co-founder, Agibot · aka "Wild Iron Man" | China Robotics Insider</title>
+  <meta name="description" content="The Huawei "genius" who turned a 2-million-yuan salary offer into one of China's hottest robotics startups.">
+  <meta name="keywords" content="Peng Zhihui, Agibot founder, Wild Iron Man, Chinese humanoid startup, embodied AI, Huaweichijun">
+  <link rel="canonical" href="https://www.robotichina.com/person-peng-zhihui.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="China Robotics Insider">
+  <meta property="og:title" content="Peng Zhihui — Profile">
+  <meta property="og:description" content="The Huawei "genius" who turned a 2-million-yuan salary offer into one of China's hottest robotics startups.">
+  <meta property="og:url" content="https://www.robotichina.com/person-peng-zhihui.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Peng Zhihui",
+    "jobTitle": "Co-founder, Agibot · aka "Wild Iron Man"",
+    "description": "The Huawei "genius" who turned a 2-million-yuan salary offer into one of China's hottest robotics startups.",
+    "knowsAbout": "robotics, humanoid robots, embodied AI, industrial robots",
+    "publisher": { "@type": "Organization", "name": "China Robotics Insider" }
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="China Robotics Insider home">
+      <svg class="logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="8" y="16" width="24" height="15" rx="4" fill="#2563eb"/>
+        <rect x="5" y="12" width="4" height="9" rx="2" fill="#f59e0b"/>
+        <rect x="31" y="12" width="4" height="9" rx="2" fill="#f59e0b"/>
+        <rect x="13" y="20" width="4" height="4" rx="1" fill="#fff"/>
+        <rect x="23" y="20" width="4" height="4" rx="1" fill="#fff"/>
+        <rect x="18" y="27" width="4" height="4" rx="1" fill="#fff"/>
+        <circle cx="9" cy="30" r="2.4" fill="#0d9488"/>
+        <circle cx="31" cy="30" r="2.4" fill="#0d9488"/>
+      </svg>
+      <span>China Robotics <b>Insider</b></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="people.html" class="active">People</a></li>
+        <li><a href="companies.html">Companies</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="articles.html">Insights</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container ph-inner">
+      <span class="kicker">People · The Humanoid Generation</span>
+      <h1>Peng Zhihui</h1>
+      <p>The Huawei "genius" who turned a 2-million-yuan salary offer into one of China's hottest robotics startups.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="person-head">
+        <img class="p-photo-lg" src="assets/people/peng-zhihui.jpg" alt="Peng Zhihui, Co-founder, Agibot · aka "Wild Iron Man"">
+        <div class="p-h-meta">
+          <span class="p-cn">彭志辉 / 稚晖君</span>
+          <h2>Co-founder, Agibot · aka "Wild Iron Man"</h2>
+          <p class="p-role">Co-founder of Agibot (智元) with former Huawei VP Deng Taihua</p>
+          <div class="p-chips"><span class="chip amber">Agibot</span><span class="chip teal">Wild Iron Man</span><span class="chip">Fastest riser</span><span class="chip">Shanghai</span></div>
+        </div>
+      </div>
+
+      <div class="prose" style="max-width:860px;">
+<h2>Who he is</h2>
+<p>Peng Zhihui is the Huawei "genius" who gave up a reported 2-million-yuan salary offer to found Agibot in 2023 with former Huawei VP Deng Taihua. Known online as "Wild Iron Man" (稚晖君) for his spectacular DIY robotics videos, he became one of China's most recognisable young engineers.</p>
+<p>The startup rose faster than almost any in the sector. Agibot reached a 15-billion-yuan valuation in three years, backed by 10 financing rounds and more than 50 investors from Tencent to BYD. In H1 2026 it overtook Unitree in shipments — roughly 8,400 units, about 44% of the market — and launched a Hong Kong IPO.</p>
+<h2>Why he matters</h2>
+<p>Peng personifies the shift of top AI talent into embodied AI. His famous "358 plan" — 10 billion yuan revenue by 2027, 100 billion by 2030 — is the most ambitious publicly stated target in the industry. If the humanoid race is a talent war, Peng is one of the strongest signs that China's best minds are all in.</p>
+<div class="person-facts"><h3>Key facts</h3><ul>
+<li><strong>2023:</strong> Founded Agibot with former Huawei VP Deng Taihua.</li>
+<li><strong>Valuation:</strong> 15 billion yuan in three years; 10 rounds, 50+ investors.</li>
+<li><strong>H1 2026:</strong> ~8,400 shipments — overtook Unitree, ~44% market share.</li>
+<li><strong>Plan:</strong> 10B yuan revenue by 2027, 100B by 2030.</li>
+</ul></div>
+      </div>
+
+      <div class="related-note"><strong>Photo credit:</strong> Public photograph via news and media coverage. All facts drawn from publicly reported coverage; figures are as reported and may be updated.</div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Keep exploring</span>
+        <h2>Related reading</h2>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <h3><a href="people.html">Founders &amp; Key Figures</a></h3>
+          <p>Back to the full cast — two generations of the people building China's robotics industry.</p>
+        </article>
+        <article class="card">
+          <h3><a href="companies.html#humanoid">Companies & Startups</a></h3>
+          <p>Agibot — the fastest-rising humanoid company — plus its competitors in the race.</p>
+        </article>
+        <article class="card">
+          <h3><a href="products.html">Cutting-edge Products</a></h3>
+          <p>See the machines these people built — from 10 m/s humanoids to banana-peeling hands.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a class="brand" href="index.html" style="color:#fff;">
+          <span>China Robotics <b style="color:#fbbf24;">Insider</b></span>
+        </a>
+        <p>An independent English-language guide to China's robotics industry — founders, companies, history and products.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="history.html">Development History</a>
+        <a href="people.html">Founders &amp; Key Figures</a>
+        <a href="companies.html">Companies &amp; Startups</a>
+        <a href="products.html">Cutting-edge Products</a>
+      </div>
+      <div>
+        <h4>Company focus</h4>
+        <a href="companies.html#humanoid">Humanoid &amp; Embodied AI</a>
+        <a href="companies.html#industrial">Industrial Robots</a>
+        <a href="companies.html#service">Service &amp; Cleaning</a>
+        <a href="companies.html#components">Components &amp; Ecosystem</a>
+      </div>
+      <div>
+        <h4>Insights</h4>
+        <a href="articles.html">All Articles</a>
+        <a href="humanoid-robot-race.html">The Humanoid Robot Race</a>
+        <a href="china-robot-vacuums.html">Robot Vacuums</a>
+        <a href="china-industrial-robots.html">Industrial Robots</a>
+        <a href="robot-startup-funding.html">Startup Funding</a>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> China Robotics Insider. All rights reserved.</span>
+      <span>Independent editorial coverage · Not affiliated with any company listed.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
