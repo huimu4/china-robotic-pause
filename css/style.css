@@ -463,3 +463,34 @@ td .cn { color: var(--ink-300); font-size: 0.8rem; }
   display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover;
   background: var(--bg-soft); border-bottom: 1px solid var(--line-soft);
 }
+
+/* ============================================================
+   Article byline + interaction bar (SemiAnalysis-style)
+   ============================================================ */
+.article-meta { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--line-soft); }
+.byline {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 10px;
+  font-size: 0.9rem; color: var(--ink-500); margin-bottom: 16px;
+}
+.byline .author { font-weight: 800; color: var(--ink-900); }
+.byline .sep { color: var(--ink-300); }
+.byline .date { color: var(--ink-500); }
+.byline .read { color: var(--ink-300); font-size: 0.85rem; }
+.interact-row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.interact-btn {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 7px 14px; border: 1px solid var(--line); border-radius: 999px;
+  background: var(--bg-card); color: var(--ink-500);
+  font-size: 0.84rem; font-weight: 700; cursor: pointer;
+  font-family: inherit; transition: all 0.15s ease;
+}
+.interact-btn:hover { color: var(--ink-900); border-color: var(--ink-300); background: var(--bg-hover); }
+.interact-btn .ic { font-size: 0.72rem; }
+.interact-btn.liked { color: var(--amber-500); border-color: rgba(255,138,31,0.5); background: rgba(255,138,31,0.10); }
+.interact-btn .like-count { color: var(--ink-300); font-weight: 800; }
+.interact-btn.liked .like-count { color: var(--amber-500); }
+.interact-btn a { color: inherit; }
+@media (max-width: 600px) {
+  .interact-row { gap: 6px; }
+  .interact-btn { padding: 6px 11px; font-size: 0.8rem; }
+}
