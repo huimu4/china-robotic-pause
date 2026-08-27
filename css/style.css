@@ -387,3 +387,36 @@ td .cn { color: var(--ink-300); font-size: 0.8rem; }
 .search-hit h3 a { color: var(--ink-900); }
 .search-hit h3 a:hover { color: var(--blue-600); }
 .search-empty { color: var(--ink-400); font-size: 1rem; padding: 14px 0; }
+
+/* ---------- Company Directory page ---------- */
+.dir-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.dir-nav a {
+  display: inline-block; padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px;
+  font-size: 0.86rem; font-weight: 700; color: var(--ink-600); background: var(--white);
+  text-decoration: none; transition: all 0.15s ease;
+}
+.dir-nav a:hover { border-color: var(--blue-600); color: var(--blue-600); }
+.dir-note { font-size: 0.86rem; color: var(--ink-400); margin: 0 0 28px; max-width: 780px; line-height: 1.7; }
+.dir-section { margin: 0 0 44px; scroll-margin-top: 90px; }
+.dir-section-head { display: flex; align-items: baseline; gap: 12px; border-bottom: 2px solid var(--line); padding-bottom: 10px; margin-bottom: 16px; }
+.dir-section-head h2 { font-size: 1.35rem; margin: 0; }
+.dir-count { font-size: 0.82rem; font-weight: 800; color: var(--blue-600); text-transform: uppercase; letter-spacing: 0.04em; }
+.dir-list { list-style: none; margin: 0; padding: 0; columns: 3; column-gap: 28px; }
+.dir-list li {
+  break-inside: avoid; padding: 7px 0; border-bottom: 1px dashed var(--line);
+  font-size: 0.9rem; line-height: 1.55;
+}
+.dir-en { font-weight: 700; color: var(--ink-900); }
+.dir-cn { color: var(--ink-400); font-size: 0.84rem; }
+.dir-city { color: var(--ink-500); font-size: 0.84rem; }
+.dir-focus { color: var(--ink-400); font-size: 0.82rem; }
+.dir-list .site-link { font-size: 0.8rem; margin-left: 4px; }
+@media (max-width: 1024px) { .dir-list { columns: 2; } }
+@media (max-width: 720px) { .dir-list { columns: 1; } }
+
+/* ---------- Database spec tables ---------- */
+.spec-table { width: 100%; border-collapse: collapse; margin: 1.2rem 0 2rem; }
+.spec-table th, .spec-table td { border: 1px solid var(--line); padding: 0.7rem 1rem; text-align: left; vertical-align: top; }
+.spec-table th { background: #f6f8fb; color: var(--ink-700); font-weight: 700; width: 34%; }
+.spec-table tr:nth-child(even) td { background: #fafbfc; }
+@media (max-width: 720px) { .spec-table th, .spec-table td { padding: 0.55rem 0.6rem; font-size: 0.9rem; } }

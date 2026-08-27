@@ -38,6 +38,7 @@
     }).join('');
   }
 
+  // Pre-fill from ?q= URL param
   var params = new URLSearchParams(window.location.search);
   var q0 = params.get('q');
   if (q0) {
