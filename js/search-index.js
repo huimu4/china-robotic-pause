@@ -100,8 +100,7 @@ window.SEARCH_INDEX = [
   {"u": "database/company-titan-robot.html", "t": "TiTaN Robot \u2014 Hands & Humanoids", "cat": "Database", "k": "titan taihu dexterous hand humanoid shanghai", "d": "Dexterous hands & humanoid platforms."},
   {"u": "database/company-xpeng-robotics.html", "t": "XPeng Robotics \u2014 Iron Humanoid", "cat": "Database", "k": "xpeng pengxing iron humanoid automotive", "d": "Xpeng-affiliated Iron humanoid."},
   {"u": "database/company-noematrix.html", "t": "Noematrix \u2014 Embodied AI", "cat": "Database", "k": "noematrix qiongche embodied AI fourier manipulation", "d": "Fourier-linked embodied-AI brain."},
-  {"u": "database/company-starchart.html", "t": "StarChart Robotics \u2014 Embodied AI", "cat": "Database", "k": "starchart xinghaitu dexterous arm embodied AI", "d": "Dexterous arms & embodied-AI."}
-,
+  ,
   {"u": "database/company-qinchuan.html", "t": "Qinchuan \u2014 RV Reducers & Machine Tools", "cat": "Database", "k": "qinchuan qinchuan jichuang RV reducer machine tool", "d": "RV reducers & precision machine tools."},
   {"u": "database/company-guomao.html", "t": "Guomao \u2014 Gearboxes & Reducers", "cat": "Database", "k": "guomao gearbox reducer industrial changzhou", "d": "Industrial gearboxes entering robotics."},
   {"u": "database/company-laifual.html", "t": "Laifual \u2014 Harmonic Reducers", "cat": "Database", "k": "laifual laifu harmonic reducer actuator", "d": "Harmonic reducers for robots & humanoids."},
