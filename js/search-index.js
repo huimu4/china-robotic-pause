@@ -122,5 +122,13 @@ window.SEARCH_INDEX = [
   {"u": "unitree-vs-kepler.html", "t": "Unitree G1 vs Kepler K2 \u2014 Comparison", "cat": "Insights", "k": "unitree kepler g1 k2 compare humanoid which", "d": "Two Chinese humanoids compared honestly."},
   {"u": "china-harmonic-drive-suppliers.html", "t": "China Harmonic Drive Manufacturers", "cat": "Insights", "k": "harmonic reducer suppliers china leaderdrive laifual list", "d": "China's harmonic drive supplier list, ranked."},
   {"u": "china-planetary-roller-screw-suppliers.html", "t": "Planetary Roller Screw Suppliers China", "cat": "Insights", "k": "planetary roller screw suppliers china hengli xcc humanoid", "d": "Who makes roller screws inside Chinese humanoids."},
-  {"u": "china-humanoid-robot-policy-fund.html", "t": "China Humanoid Robot Policy & Funds", "cat": "Insights", "k": "china humanoid policy fund industrial park subsidy", "d": "How state money backs the humanoid bet."}
+  {"u": "china-humanoid-robot-policy-fund.html", "t": "China Humanoid Robot Policy & Funds", "cat": "Insights", "k": "china humanoid policy fund industrial park subsidy", "d": "How state money backs the humanoid bet."},
+  {"u": "database/product-ubtech-walker-s.html", "t": "UBTECH Walker S / S1 — Industrial Humanoid", "cat": "Database", "k": "ubtech walker s s1 humanoid factory assembly line industrial specs", "d": "The first humanoid to work real factory shifts."},
+  {"u": "database/product-engineai-t800.html", "t": "EngineAI T800 — Full-Size Humanoid", "cat": "Database", "k": "engineai t800 humanoid specs dance football full size", "d": "EngineAI's full-size showman humanoid."},
+  {"u": "database/product-unitree-go2.html", "t": "Unitree Go2 — Robot Dog Specs & Price", "cat": "Database", "k": "unitree go2 robot dog quadruped specs price payload battery", "d": "The world's best-selling robot dog."},
+  {"u": "database/product-kepler-k2.html", "t": "Kepler K2 — Full-Size Humanoid", "cat": "Database", "k": "kepler k2 humanoid specs industrial sub 30000 full size", "d": "Shanghai's sub-$30k industrial humanoid."},
+  {"u": "database/product-limx-cl1.html", "t": "LimX Dynamics CL-1 — Humanoid", "cat": "Database", "k": "limx cl1 humanoid specs shenzhen quadruped walking stairs", "d": "Full-size humanoid built on LimX quadruped legs."},
+  {"u": "database/product-astribot-s1.html", "t": "Astribot S1 — 10 m/s Manipulation Robot", "cat": "Database", "k": "astribot s1 dexterous manipulation 10 m/s dual arm specs", "d": "One of the fastest dexterous manipulation robots."},
+  {"u": "database/product-ecovacs-deebot.html", "t": "Ecovacs Deebot — Robot Vacuum", "cat": "Database", "k": "ecovacs deebot robot vacuum specs mop navigation price", "d": "The brand that created China's robot-vacuum category."},
+  {"u": "database/product-roborock-s8.html", "t": "Roborock S8 — Robot Vacuum", "cat": "Database", "k": "roborock s8 robot vacuum specs suction mop dock price", "d": "The hardware-specs challenger in home robotics."}
 ];
