@@ -517,3 +517,36 @@ td .cn { color: var(--ink-300); font-size: 0.8rem; }
 .more-item:hover .more-title { color: var(--amber-400); }
 .more-item .more-arrow { flex: 0 0 auto; color: var(--ink-300); font-size: 1.05rem; transition: transform 0.15s ease; }
 .more-item:hover .more-arrow { transform: translateX(4px); color: var(--amber-500); }
+
+/* ============================================================
+   Mobile UI polish (2026-08-28) - phone-first refinements
+   ============================================================ */
+@media (max-width: 600px) {
+  .container { padding-left: 16px; padding-right: 16px; }
+  .page-hero { padding: 30px 0 26px; }
+  .page-hero h1 { font-size: clamp(1.6rem, 7.5vw, 2.2rem); line-height: 1.14; margin-bottom: 12px; }
+  h1 { font-size: clamp(1.65rem, 7vw, 2.2rem); line-height: 1.15; }
+  .page-hero p, .ph-inner > p { font-size: 0.98rem; line-height: 1.6; }
+  .kicker { font-size: 0.72rem; padding: 5px 11px; margin-bottom: 14px; }
+  .lead { font-size: 1rem; line-height: 1.6; margin-bottom: 20px; }
+  .stats-grid { grid-template-columns: 1fr 1fr; gap: 18px 12px; padding: 22px 0; }
+  .card { padding: 16px; }
+  .card h3 { font-size: 1rem; }
+  .p-figure { margin: 1.2rem 0 0.3rem; }
+  .p-figure img { width: 100%; height: auto; }
+  .spec-table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .prose { font-size: 1rem; line-height: 1.72; }
+  .cta-band { padding: 26px 20px; gap: 16px; flex-direction: column; align-items: flex-start; }
+  .footer-grid { grid-template-columns: 1fr; gap: 22px; }
+  .person-head { flex-direction: column; gap: 18px; }
+  .person-head .p-photo-lg { width: 100%; max-width: 220px; height: auto; }
+  .btn { padding: 12px 20px; font-size: 0.95rem; }
+  .interact-row { flex-wrap: wrap; }
+  .article-meta { flex-wrap: wrap; }
+  .dir-list { columns: 1; }
+}
+@media (max-width: 720px) {
+  .spec-table th, .spec-table td { padding: 0.5rem 0.55rem; font-size: 0.88rem; }
+  .more-item { padding: 14px 16px; }
+  .feed-card, .feed-item { padding: 16px; }
+}
