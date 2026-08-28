@@ -431,6 +431,11 @@ td .cn { color: var(--ink-300); font-size: 0.8rem; }
 .spec-table tr:nth-child(even) td { background: rgba(255,255,255,0.015); }
 @media (max-width: 720px) { .spec-table th, .spec-table td { padding: 0.55rem 0.6rem; font-size: 0.9rem; } }
 
+/* ---------- Product page hero image ---------- */
+.p-figure { margin: 1.6rem 0 0.4rem; max-width: 860px; }
+.p-figure img { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line-soft); display: block; }
+.p-figure figcaption { font-size: 0.82rem; color: var(--ink-400); margin-top: 0.5rem; }
+
 /* ============================================================
    SemiAnalysis-style home feed cards (index.html)
    ============================================================ */
