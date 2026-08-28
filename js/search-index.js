@@ -161,4 +161,7 @@ window.SEARCH_INDEX = [
   {"u": "database/company-linkerbot.html", "t": "Linkerbot \u2014 Dexterous Hands", "cat": "Database", "k": "linkerbot dexterous hand five finger robot hand Beijing", "d": "Five-finger robot hands."},
   {"u": "database/company-dh-robotics.html", "t": "DH Robotics \u2014 Grippers", "cat": "Database", "k": "DH robotics gripper electric parallel end-effector Shenzhen", "d": "Electric parallel grippers."},
   {"u": "database/company-seer-robotics.html", "t": "SEER Robotics \u2014 AMR", "cat": "Database", "k": "seer AMR controller mobile robot warehouse automation Shanghai", "d": "AMR controllers & robots."}
+,
+  {"u": "agibot-a2-vs-unitree-g1.html", "t": "AgiBot A2 vs Unitree G1: Head-to-Head", "cat": "Insights", "k": "agibot A2 unitree G1 humanoid comparison yuanzheng specs price 2026", "d": "China two best-known humanoids compared \u2014 full-size commercial vs budget volume."},
+  {"u": "unitree-go2-specs.html", "t": "Unitree Go2 Specs, Fully Broken Down", "cat": "Insights", "k": "unitree go2 specs robot dog quadruped price lidar 4d", "d": "Every Go2 spec \u2014 size weight DOF joints LIDAR speed payload price variants."}
 ];
