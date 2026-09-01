@@ -163,5 +163,7 @@ window.SEARCH_INDEX = [
   {"u": "database/company-seer-robotics.html", "t": "SEER Robotics \u2014 AMR", "cat": "Database", "k": "seer AMR controller mobile robot warehouse automation Shanghai", "d": "AMR controllers & robots."}
 ,
   {"u": "agibot-a2-vs-unitree-g1.html", "t": "AgiBot A2 vs Unitree G1: Head-to-Head", "cat": "Insights", "k": "agibot A2 unitree G1 humanoid comparison yuanzheng specs price 2026", "d": "China two best-known humanoids compared \u2014 full-size commercial vs budget volume."},
-  {"u": "unitree-go2-specs.html", "t": "Unitree Go2 Specs, Fully Broken Down", "cat": "Insights", "k": "unitree go2 specs robot dog quadruped price lidar 4d", "d": "Every Go2 spec \u2014 size weight DOF joints LIDAR speed payload price variants."}
+  {"u": "unitree-go2-specs.html", "t": "Unitree Go2 Specs, Fully Broken Down", "cat": "Insights", "k": "unitree go2 specs robot dog quadruped price lidar 4d", "d": "Every Go2 spec \u2014 size weight DOF joints LIDAR speed payload price variants."},
+  {"u": "unitree-go2-vs-xiaomi-cyberdog.html", "t": "Unitree Go2 vs Xiaomi CyberDog: Compared", "cat": "Insights", "k": "unitree go2 xiaomi cyberdog 2 quadruped comparison specs price robot dog 2026", "d": "China two most popular robot dogs compared — specs price sensors AI."},
+  {"u": "china-dexterous-hand-suppliers.html", "t": "China's Dexterous Hand Suppliers", "cat": "Insights", "k": "chinese dexterous hand suppliers humanoid robot hand linkerbot inspire robots paxini tactile", "d": "Who makes the hands on humanoids — Inspire, Linkerbot, PaXini and the supply chain."}
 ];
