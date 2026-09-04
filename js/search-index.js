@@ -29,7 +29,7 @@ window.SEARCH_INDEX = [
   { "u": "person-shao-tianlan.html", "t": "Shao Tianlan — Founder, Mech-Mind", "cat": "People", "k": "shao tianlan mech-mind 3d vision AI industrial 邵天兰 梅卡曼德", "d": "German engineering discipline plus Chinese AI and manufacturing — building the 'eyes and brains' of industrial robots." },
   { "u": "person-cheng-haotian.html", "t": "Cheng Haotian — Founder, Gausium", "cat": "People", "k": "cheng haotian gausium cleaning robot service 程昊天 高仙", "d": "The Cambridge graduate who ignored humanoid hype and quietly built a 14-billion-yuan cleaning-robot business." },
   { "u": "person-xia-yingsong.html", "t": "Xia Yingsong — Chairman, Zhongding Co.", "cat": "People", "k": "xia yingsong zhongding reducer force sensor robot joints 夏迎松 中鼎", "d": "The second-generation industrialist betting the company on humanoid-robot joints — reducers, sensors, micro-motors." },
-  { "u": "person-zeng-fangqin.html", "t": "Zeng Fangqin — Chairwoman, Lingyi iTech", "cat": "People", "k": "zeng fangqin lingyi itech apple supply chain precision manufacturing 曾芳勤 领益", "d": "The 'Apple supply-chain queen' who listed Lingyi in Hong Kong and pointed the money at robot hardware." }
+  { "u": "person-zeng-fangqin.html", "t": "Zeng Fangqin — Chairwoman, Lingyi iTech", "cat": "People", "k": "zeng fangqin lingyi itech apple supply chain precision manufacturing 曾芳勤 领益", "d": "The 'Apple supply-chain queen' who listed Lingyi in Hong Kong and pointed the money at robot hardware." },
 ,
   {"u": "database/index.html", "t": "China Robotics Database \u2014 Company & Product Hub", "cat": "Database", "k": "china robotics database directory companies products humanoid industrial", "d": "Structured reference for Chinese robot makers and component suppliers, with spec sheets and supply-chain analysis."},
   {"u": "database/companies-directory.html", "t": "China Robotics Company Directory (1,050+ Companies)", "cat": "Database", "k": "china robot companies list directory humanoid industrial cobot service medical component suppliers", "d": "The most complete English directory of Chinese robotics companies, searchable and categorized."},
@@ -51,7 +51,7 @@ window.SEARCH_INDEX = [
   {"u": "database/company-mech-mind.html", "t": "Mech-Mind \u2014 3D Vision & AI Grasping", "cat": "Database", "k": "mech-mind meikamande 3d vision ai bin picking", "d": "AI 3D-vision & robotic bin-picking for factories."},
   {"u": "database/product-unitree-g1.html", "t": "Unitree G1 Humanoid \u2014 Specs", "cat": "Database", "k": "unitree g1 humanoid specs actuators price", "d": "Full specifications for Unitree G1 humanoid robot."},
   {"u": "database/product-agibot-a2.html", "t": "AgiBot A2 Humanoid \u2014 Specs", "cat": "Database", "k": "agibot a2 yuanzheng humanoid dexterous hand specs", "d": "Full specifications for AgiBot A2 (Yuanzheng) humanoid."},
-  {"u": "database/product-unitree-h1.html", "t": "Unitree H1 Humanoid \u2014 Specs", "cat": "Database", "k": "unitree h1 humanoid full-size specs actuators", "d": "Unitree H1 full-size humanoid robot specifications."}
+  {"u": "database/product-unitree-h1.html", "t": "Unitree H1 Humanoid \u2014 Specs", "cat": "Database", "k": "unitree h1 humanoid full-size specs actuators", "d": "Unitree H1 full-size humanoid robot specifications."},
 ,
   {"u": "database/company-unitree.html", "t": "Unitree Robotics \u2014 Humanoid & Quadruped", "cat": "Database", "k": "unitree yushu quadruped humanoid go2 g1 h1 robot dog", "d": "World's best-selling quadruped & humanoid robot maker from Hangzhou."},
   {"u": "database/company-agibot.html", "t": "AgiBot \u2014 Humanoid & Embodied AI", "cat": "Database", "k": "agibot zhiyuan peng zhihui yuanzheng a2 humanoid shanghai", "d": "Huawei-genius founded humanoid startup with dexterous hands."},
@@ -67,7 +67,7 @@ window.SEARCH_INDEX = [
   {"u": "database/company-zw-motion.html", "t": "ZW Motion \u2014 Micro Drives & Hands", "cat": "Database", "k": "zw motion zhaowei micro drive dexterous hand 003021", "d": "Micro drives & dexterous hands for humanoid robots."},
   {"u": "database/company-paxini.html", "t": "PaXini Tech \u2014 Tactile Sensors", "cat": "Database", "k": "paxini tactile sensor dexterous hand robot feel", "d": "High-resolution tactile sensors & hands giving robots touch."},
   {"u": "database/company-hesai.html", "t": "Hesai Technology \u2014 LiDAR", "cat": "Database", "k": "hesai lidar 688787 shanghai robot sensing", "d": "Shanghai LiDAR leader expanding into robotics sensing."},
-  {"u": "database/company-tinavi.html", "t": "TINAVI Medical \u2014 Surgical Robots", "cat": "Database", "k": "tinavi tianzhihang surgical robot tirobot 688277", "d": "China's first surgical-robot company; TiRobot orthopedic systems."}
+  {"u": "database/company-tinavi.html", "t": "TINAVI Medical \u2014 Surgical Robots", "cat": "Database", "k": "tinavi tianzhihang surgical robot tirobot 688277", "d": "China's first surgical-robot company; TiRobot orthopedic systems."},
 ,
   {"u": "database/company-ecovacs.html", "t": "Ecovacs Robotics \u2014 Home & Commercial", "cat": "Database", "k": "ecovacs kewoersi deebot vacuum home commercial suzhou", "d": "China's first global consumer robot brand."},
   {"u": "database/company-roborock.html", "t": "Roborock \u2014 Robot Vacuums", "cat": "Database", "k": "roborock shitou robot vacuum 688169 xiaomi premium", "d": "From Xiaomi ecosystem to global premium robot-vacuum leader."},
@@ -84,7 +84,7 @@ window.SEARCH_INDEX = [
   {"u": "database/company-surgerii.html", "t": "Surgerii \u2014 Surgical Robots", "cat": "Database", "k": "surgerii shurui single-port surgical snake instrument", "d": "Single-port surgical robots."},
   {"u": "database/company-zhongda.html", "t": "Zhongda Leader \u2014 Reducers", "cat": "Database", "k": "zhongda leader planetary reducer rv 002896 ningbo", "d": "Planetary & RV reducers for robot joints."},
   {"u": "database/company-moons.html", "t": "Moons' Electric \u2014 Motors", "cat": "Database", "k": "moons mingzhi hollow-cup motor stepper servo 603728", "d": "Hollow-cup motors & motion control."},
-  {"u": "database/company-dji.html", "t": "DJI \u2014 Drones & Robotics", "cat": "Database", "k": "dji dajiang drone aerial robomaster industrial", "d": "The company that built the global drone market."}
+  {"u": "database/company-dji.html", "t": "DJI \u2014 Drones & Robotics", "cat": "Database", "k": "dji dajiang drone aerial robomaster industrial", "d": "The company that built the global drone market."},
 ,
   {"u": "database/company-limx.html", "t": "LimX Dynamics \u2014 Humanoid Robots", "cat": "Database", "k": "limx zhuji wheel-footed humanoid CL-1 TRON", "d": "Wheel-footed & full-size humanoids, Alibaba-backed."},
   {"u": "database/company-astribot.html", "t": "Astribot \u2014 Humanoid & Arms", "cat": "Database", "k": "astribot xingchen S1 dexterous manipulation", "d": "Ultra-fast dexterous manipulation robot."},
@@ -115,7 +115,7 @@ window.SEARCH_INDEX = [
   {"u": "database/company-hanwei.html", "t": "Hanwei \u2014 Flexible Sensors", "cat": "Database", "k": "hanwei flexible sensor tactile robot skin", "d": "Flexible sensors for robot skin."},
   {"u": "database/company-tuopu.html", "t": "Tuopu \u2014 Actuators & Auto Parts", "cat": "Database", "k": "tuopu actuator auto parts humanoid", "d": "Auto-parts giant into robot actuators."},
   {"u": "database/company-sanhua.html", "t": "Sanhua \u2014 Actuators & Thermal", "cat": "Database", "k": "sanhua actuator thermal humanoid", "d": "Actuation & thermal tech for humanoids."},
-  {"u": "database/company-horizon.html", "t": "Horizon Robotics \u2014 AI Chips", "cat": "Database", "k": "horizon dipingxian AI chip SoC robot compute", "d": "AI chips from cars to robots."}
+  {"u": "database/company-horizon.html", "t": "Horizon Robotics \u2014 AI Chips", "cat": "Database", "k": "horizon dipingxian AI chip SoC robot compute", "d": "AI chips from cars to robots."},
 ,
   {"u": "unitree-g1-specs.html", "t": "Unitree G1 Specs \u2014 Full Breakdown", "cat": "Insights", "k": "unitree g1 specs height weight dof battery price optimus humanoid", "d": "Every Unitree G1 spec, compared to Tesla Optimus."},
   {"u": "unitree-vs-kepler.html", "t": "Unitree G1 vs Kepler K2 \u2014 Comparison", "cat": "Insights", "k": "unitree kepler g1 k2 compare humanoid which", "d": "Two Chinese humanoids compared honestly."},
@@ -129,7 +129,7 @@ window.SEARCH_INDEX = [
   {"u": "database/product-limx-cl1.html", "t": "LimX Dynamics CL-1 — Humanoid", "cat": "Database", "k": "limx cl1 humanoid specs shenzhen quadruped walking stairs", "d": "Full-size humanoid built on LimX quadruped legs."},
   {"u": "database/product-astribot-s1.html", "t": "Astribot S1 — 10 m/s Manipulation Robot", "cat": "Database", "k": "astribot s1 dexterous manipulation 10 m/s dual arm specs", "d": "One of the fastest dexterous manipulation robots."},
   {"u": "database/product-ecovacs-deebot.html", "t": "Ecovacs Deebot — Robot Vacuum", "cat": "Database", "k": "ecovacs deebot robot vacuum specs mop navigation price", "d": "The brand that created China's robot-vacuum category."},
-  {"u": "database/product-roborock-s8.html", "t": "Roborock S8 — Robot Vacuum", "cat": "Database", "k": "roborock s8 robot vacuum specs suction mop dock price", "d": "The hardware-specs challenger in home robotics."}
+  {"u": "database/product-roborock-s8.html", "t": "Roborock S8 — Robot Vacuum", "cat": "Database", "k": "roborock s8 robot vacuum specs suction mop dock price", "d": "The hardware-specs challenger in home robotics."},
 ,
   {"u": "database/company-elephant-robotics.html", "t": "Elephant Robotics \u2014 Desktop Arms", "cat": "Database", "k": "elephant myCobot myPalletizer desktop arm education Shenzhen", "d": "Desktop arms for makers & education."},
   {"u": "database/company-hypershell.html", "t": "Hypershell \u2014 Consumer Exoskeletons", "cat": "Database", "k": "hypershell exoskeleton outdoor hiking consumer Shanghai", "d": "AI outdoor exoskeletons."},
@@ -160,7 +160,7 @@ window.SEARCH_INDEX = [
   {"u": "database/company-csjbot.html", "t": "Csjbot \u2014 Service Robots", "cat": "Database", "k": "csjbot service robot humanoid hospitality retail Changsha", "d": "Service & humanoid robots."},
   {"u": "database/company-linkerbot.html", "t": "Linkerbot \u2014 Dexterous Hands", "cat": "Database", "k": "linkerbot dexterous hand five finger robot hand Beijing", "d": "Five-finger robot hands."},
   {"u": "database/company-dh-robotics.html", "t": "DH Robotics \u2014 Grippers", "cat": "Database", "k": "DH robotics gripper electric parallel end-effector Shenzhen", "d": "Electric parallel grippers."},
-  {"u": "database/company-seer-robotics.html", "t": "SEER Robotics \u2014 AMR", "cat": "Database", "k": "seer AMR controller mobile robot warehouse automation Shanghai", "d": "AMR controllers & robots."}
+  {"u": "database/company-seer-robotics.html", "t": "SEER Robotics \u2014 AMR", "cat": "Database", "k": "seer AMR controller mobile robot warehouse automation Shanghai", "d": "AMR controllers & robots."},
 ,
   {"u": "agibot-a2-vs-unitree-g1.html", "t": "AgiBot A2 vs Unitree G1: Head-to-Head", "cat": "Insights", "k": "agibot A2 unitree G1 humanoid comparison yuanzheng specs price 2026", "d": "China two best-known humanoids compared \u2014 full-size commercial vs budget volume."},
   {"u": "unitree-go2-specs.html", "t": "Unitree Go2 Specs, Fully Broken Down", "cat": "Insights", "k": "unitree go2 specs robot dog quadruped price lidar 4d", "d": "Every Go2 spec \u2014 size weight DOF joints LIDAR speed payload price variants."},
@@ -178,4 +178,5 @@ window.SEARCH_INDEX = [
   {"u": "china-humanoid-supply-chain.html", "t": "The China Humanoid Supply Chain: A Complete Guide", "cat": "Insights", "k": "china humanoid robot supply chain components reducers actuators encoders sensors lidar 2026 pillar guide", "d": "The pillar guide to China's humanoid supply chain — who leads every component in 2026."},
   {"u": "china-clean-room-robots.html", "t": "China's Clean Room Robots: The Machines Behind Chip Fabs", "cat": "Insights", "k": "china clean room robots cleanroom robots wafer handling semiconductor topstar siasun estun 2026", "d": "US$1.7B market, 20.8% CAGR — Topstar, SIASUN and Estun move wafers in China's fabs."},
   {"u": "china-educational-robots.html", "t": "China's Educational Robots: The Market Teaching a Nation to Code", "cat": "Insights", "k": "china educational robots educational robot market stem coding robot ubtch makeblock mbot dji robo master robo master 2026", "d": "$244M today, $1.16B by 2035 — UBTECH, Makeblock and DJI Education train China's next engineers."},
+  {"u": "dreame-technology.html", "t": "Who Is Dreame? Inside China's $4B Robot Empire", "cat": "Insights", "k": "dreame dreame technology dreame robot dreame humanoid dreame in chinese yu hao magic atom 2026", "d": "$4B vacuum giant now building humanoids via Magic Atom — the full story of Yu Hao's empire."}
 ];
