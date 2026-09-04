@@ -1,0 +1,40 @@
+name: Scheduled Publish
+
+# 定时把 drafts 分支的待发布内容合入 main（GitHub Pages 部署分支）
+# cron = 分钟 时 日 月 周（UTC）。示例 0 4 5 9 * = 9月5日 04:00 UTC = 北京 12:00
+on:
+  schedule:
+    - cron: "0 4 5 9 *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Pull scheduled content from drafts branch
+        run: |
+          git config user.name "robotichina-bot"
+          git config user.email "bot@robotichina.com"
+          # 若 main 本地已 checkout 到其他分支则切回 main
+          git checkout main
+          # 用 drafts 分支内容覆盖（文章 + 更新的 search-index + sitemap）
+          git checkout origin/drafts -- . || git checkout drafts -- .
+
+      - name: Commit and push
+        run: |
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Scheduled publish: release drafts content (auto)"
+            git push origin main
+            echo "published"
+          else
+            echo "no changes"
+          fi
