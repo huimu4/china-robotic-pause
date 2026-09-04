@@ -1,0 +1,156 @@
+# China Robotics Insider
+
+> China Robotics Insider is an independent English-language publication covering China's robotics industry — founders, companies, products, development history and the supply chain behind the world's largest humanoid ecosystem.
+
+> Site: https://www.robotichina.com
+> Key topics: humanoid robots, robot supply chain, actuators, reducers, sensors, LiDAR, clean room robots, educational robots, robot vacuums, industrial robots
+## Database
+- [China Robotics Database \u2014 Company & Product Hub](https://www.robotichina.com/database/index.html): Structured reference for Chinese robot makers and component suppliers, with spec sheets and supply-chain analysis.
+- [China Robotics Company Directory (1,050+ Companies)](https://www.robotichina.com/database/companies-directory.html): The most complete English directory of Chinese robotics companies, searchable and categorized.
+- [Fourier Intelligence \u2014 Humanoid & Rehab](https://www.robotichina.com/database/company-fourier.html): Shanghai humanoid & rehab robotics leader with GR-2 humanoid and strong force control.
+- [Galbot \u2014 Wheeled Humanoid & VLA Models](https://www.robotichina.com/database/company-galbot.html): Wheeled humanoid G1 paired with Vision-Language-Action foundation models.
+- [Deep Robotics \u2014 Quadruped & Biped](https://www.robotichina.com/database/company-deep-robotics.html): Hangzhou quadruped pioneer expanding into bipedal robots.
+- [ESTUN \u2014 Industrial Robots & Servo](https://www.robotichina.com/database/company-estun.html): China's largest domestic industrial-robot OEM.
+- [Inovance \u2014 Servo & Automation](https://www.robotichina.com/database/company-inovance.html): China's #1 servo supplier powering many Chinese robots.
+- [SIASUN \u2014 State Robotics Flagship](https://www.robotichina.com/database/company-siasun.html): State-backed robotics flagship born from CAS Shenyang Institute.
+- [Geek+ \u2014 Warehouse AMR Leader](https://www.robotichina.com/database/company-geekplus.html): Global AMR & warehouse robot leader.
+- [HAI Robotics \u2014 ACR Warehouse Robots](https://www.robotichina.com/database/company-hai-robotics.html): Inventor of the ACR case-handling warehouse robot.
+- [AUBO Robotics \u2014 Collaborative Robots](https://www.robotichina.com/database/company-aubo.html): China's collaborative-robot pioneer.
+- [JAKA Robotics \u2014 Collaborative Robots](https://www.robotichina.com/database/company-jaka.html): Fast-growing Shanghai cobot maker.
+- [Dobot Robotics \u2014 Desktop & Cobots](https://www.robotichina.com/database/company-dobot.html): From desktop arms to HKEX-listed cobot company.
+- [Leadshine \u2014 Motion Control & Servo](https://www.robotichina.com/database/company-leadshine.html): Motion-control supplier powering Chinese robots.
+- [Orbbec \u2014 3D Vision Sensors](https://www.robotichina.com/database/company-orbbec.html): China's leading 3D-vision sensor maker for robots.
+- [RoboSense \u2014 LiDAR](https://www.robotichina.com/database/company-robosense.html): LiDAR supplier equipping vehicles and robots.
+- [Inspire Robots \u2014 Dexterous Hands](https://www.robotichina.com/database/company-inspire-robots.html): Miniature servo actuators & dexterous hands for humanoids.
+- [Mech-Mind \u2014 3D Vision & AI Grasping](https://www.robotichina.com/database/company-mech-mind.html): AI 3D-vision & robotic bin-picking for factories.
+- [Unitree G1 Humanoid \u2014 Specs](https://www.robotichina.com/database/product-unitree-g1.html): Full specifications for Unitree G1 humanoid robot.
+- [AgiBot A2 Humanoid \u2014 Specs](https://www.robotichina.com/database/product-agibot-a2.html): Full specifications for AgiBot A2 (Yuanzheng) humanoid.
+- [Unitree H1 Humanoid \u2014 Specs](https://www.robotichina.com/database/product-unitree-h1.html): Unitree H1 full-size humanoid robot specifications.
+- [Unitree Robotics \u2014 Humanoid & Quadruped](https://www.robotichina.com/database/company-unitree.html): World's best-selling quadruped & humanoid robot maker from Hangzhou.
+- [AgiBot \u2014 Humanoid & Embodied AI](https://www.robotichina.com/database/company-agibot.html): Huawei-genius founded humanoid startup with dexterous hands.
+- [UBTECH Robotics \u2014 Humanoid & Service](https://www.robotichina.com/database/company-ubtech.html): China's first listed humanoid-robot company (09880.HK).
+- [EngineAI \u2014 Humanoid Robots](https://www.robotichina.com/database/company-engineai.html): Shenzhen humanoid startup known for acrobatic running robots.
+- [RobotEra \u2014 Humanoid & Dexterous Hands](https://www.robotichina.com/database/company-robotera.html): Beijing humanoid startup with leading dexterous hands.
+- [Quicktron \u2014 Warehouse AMR](https://www.robotichina.com/database/company-quicktron.html): Wuxi warehouse robotics maker building AMRs for global e-commerce.
+- [VisionNav \u2014 Autonomous Forklifts](https://www.robotichina.com/database/company-visionnav.html): Vision-guided autonomous forklifts and industrial mobile robots.
+- [Standard Robots \u2014 Industrial AMR](https://www.robotichina.com/database/company-standard-robots.html): Industrial AMR maker for semiconductor and automotive factories.
+- [Leaderdrive (Green Harmonic) \u2014 Reducer](https://www.robotichina.com/database/company-green-harmonic.html): China's leading harmonic reducer maker and key humanoid supplier.
+- [Double-Ring \u2014 RV Reducer](https://www.robotichina.com/database/company-double-ring.html): Leading RV reducer & planetary roller screw maker.
+- [Haozhi Mechanical \u2014 Reducers & Spindles](https://www.robotichina.com/database/company-haozhi.html): Harmonic reducers & precision spindles for robots and CNC.
+- [ZW Motion \u2014 Micro Drives & Hands](https://www.robotichina.com/database/company-zw-motion.html): Micro drives & dexterous hands for humanoid robots.
+- [PaXini Tech \u2014 Tactile Sensors](https://www.robotichina.com/database/company-paxini.html): High-resolution tactile sensors & hands giving robots touch.
+- [Hesai Technology \u2014 LiDAR](https://www.robotichina.com/database/company-hesai.html): Shanghai LiDAR leader expanding into robotics sensing.
+- [TINAVI Medical \u2014 Surgical Robots](https://www.robotichina.com/database/company-tinavi.html): China's first surgical-robot company; TiRobot orthopedic systems.
+- [Ecovacs Robotics \u2014 Home & Commercial](https://www.robotichina.com/database/company-ecovacs.html): China's first global consumer robot brand.
+- [Roborock \u2014 Robot Vacuums](https://www.robotichina.com/database/company-roborock.html): From Xiaomi ecosystem to global premium robot-vacuum leader.
+- [Narwal \u2014 Mopping & Home Robots](https://www.robotichina.com/database/company-narwal.html): Pioneer of self-cleaning robot mops.
+- [Dreame Technology \u2014 Home Robots](https://www.robotichina.com/database/company-dreame.html): High-speed motor tech powering premium home robots.
+- [Pudu Robotics \u2014 Delivery Robots](https://www.robotichina.com/database/company-pudu.html): World's leading restaurant delivery robots.
+- [Keenon Robotics \u2014 Delivery Robots](https://www.robotichina.com/database/company-keenon.html): Shanghai delivery-robot leader.
+- [OrionStar \u2014 AI Service Robots](https://www.robotichina.com/database/company-orionstar.html): AI service & interaction robots.
+- [EFORT \u2014 Industrial Robots](https://www.robotichina.com/database/company-efort.html): Wuhu low-cost industrial robot maker.
+- [Topstar \u2014 Industrial Automation](https://www.robotichina.com/database/company-topstar.html): Dongguan industrial robots & automation.
+- [Flexiv \u2014 Force-Control Arms](https://www.robotichina.com/database/company-flexiv.html): Force-controlled arms for adaptive manufacturing.
+- [Agile Robots \u2014 AI & Force Control](https://www.robotichina.com/database/company-agile-robots.html): German-Chinese AI & force-control robotics.
+- [MicroPort MedBot \u2014 Surgical Robots](https://www.robotichina.com/database/company-medbot.html): China's leading laparoscopic surgical robot.
+- [Surgerii \u2014 Surgical Robots](https://www.robotichina.com/database/company-surgerii.html): Single-port surgical robots.
+- [Zhongda Leader \u2014 Reducers](https://www.robotichina.com/database/company-zhongda.html): Planetary & RV reducers for robot joints.
+- [Moons' Electric \u2014 Motors](https://www.robotichina.com/database/company-moons.html): Hollow-cup motors & motion control.
+- [DJI \u2014 Drones & Robotics](https://www.robotichina.com/database/company-dji.html): The company that built the global drone market.
+- [LimX Dynamics \u2014 Humanoid Robots](https://www.robotichina.com/database/company-limx.html): Wheel-footed & full-size humanoids, Alibaba-backed.
+- [Astribot \u2014 Humanoid & Arms](https://www.robotichina.com/database/company-astribot.html): Ultra-fast dexterous manipulation robot.
+- [Kepler Robotics \u2014 Humanoid](https://www.robotichina.com/database/company-kepler.html): K2 full-size humanoid for industry.
+- [Leju Robotics \u2014 Humanoid (Kuavo)](https://www.robotichina.com/database/company-leju.html): Kuavo humanoid for education & research.
+- [Booster Robotics \u2014 Humanoid](https://www.robotichina.com/database/company-booster.html): Fast-moving T-series humanoids.
+- [SongYan Dynamics \u2014 Running Humanoid](https://www.robotichina.com/database/company-songyan.html): Fast-running humanoids & bionic legged robots.
+- [CloudMinds \u2014 Cloud Humanoid](https://www.robotichina.com/database/company-cloudminds.html): Cloud-brained Ginger humanoid.
+- [MagicLab \u2014 Humanoid (Wonder)](https://www.robotichina.com/database/company-magiclab.html): Wonder humanoid with dexterous hands.
+- [X Square Robot \u2014 Embodied VLA](https://www.robotichina.com/database/company-x-square.html): Unified VLA foundation model for robots.
+- [AI\u00b2 Robotics \u2014 Embodied AI](https://www.robotichina.com/database/company-ai-squared.html): General-purpose embodied AI.
+- [Spirit AI \u2014 Embodied AI](https://www.robotichina.com/database/company-spirit-ai.html): LLM-powered embodied-AI brain.
+- [TiTaN Robot \u2014 Hands & Humanoids](https://www.robotichina.com/database/company-titan-robot.html): Dexterous hands & humanoid platforms.
+- [XPeng Robotics \u2014 Iron Humanoid](https://www.robotichina.com/database/company-xpeng-robotics.html): Xpeng-affiliated Iron humanoid.
+- [Noematrix \u2014 Embodied AI](https://www.robotichina.com/database/company-noematrix.html): Fourier-linked embodied-AI brain.
+- [Qinchuan \u2014 RV Reducers & Machine Tools](https://www.robotichina.com/database/company-qinchuan.html): RV reducers & precision machine tools.
+- [Guomao \u2014 Gearboxes & Reducers](https://www.robotichina.com/database/company-guomao.html): Industrial gearboxes entering robotics.
+- [Laifual \u2014 Harmonic Reducers](https://www.robotichina.com/database/company-laifual.html): Harmonic reducers for robots & humanoids.
+- [Hengli \u2014 Screws & Actuators](https://www.robotichina.com/database/company-hengli.html): Precision screws & actuators for humanoids.
+- [XCC Group \u2014 Bearings & Screws](https://www.robotichina.com/database/company-xcc.html): Bearings & roller screws for humanoids.
+- [Best Precision \u2014 Roller Screws](https://www.robotichina.com/database/company-best-precision.html): Auto-parts precision into roller screws.
+- [Kinco \u2014 Servo & Stepper Drives](https://www.robotichina.com/database/company-kinco.html): Servo & stepper drives for robots.
+- [Hechuan \u2014 Servo Systems](https://www.robotichina.com/database/company-hechuan.html): Servo systems for industrial robots.
+- [Wolong \u2014 Motors & Drives](https://www.robotichina.com/database/company-wolong.html): Motors & drives for robotics.
+- [Googol \u2014 Motion Controllers](https://www.robotichina.com/database/company-googol.html): Motion controllers from HKUST roots.
+- [Keli Sensing \u2014 Force Sensors](https://www.robotichina.com/database/company-keli.html): Force sensors for robots & industry.
+- [Hanwei \u2014 Flexible Sensors](https://www.robotichina.com/database/company-hanwei.html): Flexible sensors for robot skin.
+- [Tuopu \u2014 Actuators & Auto Parts](https://www.robotichina.com/database/company-tuopu.html): Auto-parts giant into robot actuators.
+- [Sanhua \u2014 Actuators & Thermal](https://www.robotichina.com/database/company-sanhua.html): Actuation & thermal tech for humanoids.
+- [Horizon Robotics \u2014 AI Chips](https://www.robotichina.com/database/company-horizon.html): AI chips from cars to robots.
+- [UBTECH Walker S / S1 — Industrial Humanoid](https://www.robotichina.com/database/product-ubtech-walker-s.html): The first humanoid to work real factory shifts.
+- [EngineAI T800 — Full-Size Humanoid](https://www.robotichina.com/database/product-engineai-t800.html): EngineAI's full-size showman humanoid.
+- [Unitree Go2 — Robot Dog Specs & Price](https://www.robotichina.com/database/product-unitree-go2.html): The world's best-selling robot dog.
+- [Kepler K2 — Full-Size Humanoid](https://www.robotichina.com/database/product-kepler-k2.html): Shanghai's sub-$30k industrial humanoid.
+- [LimX Dynamics CL-1 — Humanoid](https://www.robotichina.com/database/product-limx-cl1.html): Full-size humanoid built on LimX quadruped legs.
+- [Astribot S1 — 10 m/s Manipulation Robot](https://www.robotichina.com/database/product-astribot-s1.html): One of the fastest dexterous manipulation robots.
+- [Ecovacs Deebot — Robot Vacuum](https://www.robotichina.com/database/product-ecovacs-deebot.html): The brand that created China's robot-vacuum category.
+- [Roborock S8 — Robot Vacuum](https://www.robotichina.com/database/product-roborock-s8.html): The hardware-specs challenger in home robotics.
+- [Elephant Robotics \u2014 Desktop Arms](https://www.robotichina.com/database/company-elephant-robotics.html): Desktop arms for makers & education.
+- [Hypershell \u2014 Consumer Exoskeletons](https://www.robotichina.com/database/company-hypershell.html): AI outdoor exoskeletons.
+- [Aiper \u2014 Cordless Pool Robots](https://www.robotichina.com/database/company-aiper.html): Cordless robotic pool cleaners.
+- [Beatbot \u2014 Pool Robots](https://www.robotichina.com/database/company-beatbot.html): Premium smart pool robots.
+- [Yarbo \u2014 Yard Robots](https://www.robotichina.com/database/company-yarbo.html): Modular outdoor yard robots.
+- [Chasing \u2014 Underwater Drones](https://www.robotichina.com/database/company-chasing.html): Affordable underwater drones.
+- [Deepinfar \u2014 Underwater Robots](https://www.robotichina.com/database/company-deepinfar.html): Underwater ROVs & swim propulsion.
+- [ROBOSEA \u2014 Bionic Robots](https://www.robotichina.com/database/company-robosea.html): Bionic underwater robots.
+- [Yunzhou \u2014 Unmanned Surface Vessels](https://www.robotichina.com/database/company-yunzhou.html): Autonomous surface vessels.
+- [Cornerstone \u2014 Surgical Robots](https://www.robotichina.com/database/company-cornerstone.html): Surgical-robot unicorn.
+- [MileBot \u2014 Rehab Exoskeletons](https://www.robotichina.com/database/company-milebot.html): Rehab exoskeletons.
+- [ULS \u2014 Industrial Exoskeletons](https://www.robotichina.com/database/company-uls-robotics.html): Industrial exoskeletons.
+- [Elite Robots \u2014 Cobots](https://www.robotichina.com/database/company-elite-robots.html): Collaborative robot arms.
+- [Atomrobot \u2014 Delta Robots](https://www.robotichina.com/database/company-atomrobot.html): High-speed Delta & SCARA robots.
+- [GSK CNC \u2014 CNC & Robots](https://www.robotichina.com/database/company-gsk-cnc.html): CNC giant building robots.
+- [Huayan \u2014 Cobots](https://www.robotichina.com/database/company-huayan-robotics.html): Foshan collaborative arms.
+- [Wisson \u2014 Soft Arms](https://www.robotichina.com/database/company-wisson.html): Soft arms for drones.
+- [Realman \u2014 Lightweight Arms](https://www.robotichina.com/database/company-realman-robotics.html): Ultra-light arms & teleop.
+- [Galaxea \u2014 Embodied AI](https://www.robotichina.com/database/company-galaxea.html): Embodied foundation models.
+- [UniX AI \u2014 Wheeled Humanoids](https://www.robotichina.com/database/company-unix-ai.html): Affordable wheeled humanoids.
+- [Databot \u2014 Cloud Robots](https://www.robotichina.com/database/company-databot-robotics.html): Cloud-brained robots.
+- [Tencent Robotics X](https://www.robotichina.com/database/company-tencent-roboticsx.html): Tencent's robotics lab.
+- [HariBit \u2014 Legged Robots](https://www.robotichina.com/database/company-haribit.html): Humanoid & quadruped robots.
+- [Yobotics \u2014 Quadrupeds](https://www.robotichina.com/database/company-yobotics.html): Jinan quadruped robots.
+- [Artrobot \u2014 Education Robots](https://www.robotichina.com/database/company-artrobot.html): Education humanoids.
+- [Vizum \u2014 Vision & Humanoids](https://www.robotichina.com/database/company-vizum.html): Vision modules & humanoids.
+- [Csjbot \u2014 Service Robots](https://www.robotichina.com/database/company-csjbot.html): Service & humanoid robots.
+- [Linkerbot \u2014 Dexterous Hands](https://www.robotichina.com/database/company-linkerbot.html): Five-finger robot hands.
+- [DH Robotics \u2014 Grippers](https://www.robotichina.com/database/company-dh-robotics.html): Electric parallel grippers.
+- [SEER Robotics \u2014 AMR](https://www.robotichina.com/database/company-seer-robotics.html): AMR controllers & robots.
+## Insights
+- [Unitree G1 Specs \u2014 Full Breakdown](https://www.robotichina.com/unitree-g1-specs.html): Every Unitree G1 spec, compared to Tesla Optimus.
+- [Unitree G1 vs Kepler K2 \u2014 Comparison](https://www.robotichina.com/unitree-vs-kepler.html): Two Chinese humanoids compared honestly.
+- [China Harmonic Drive Manufacturers](https://www.robotichina.com/china-harmonic-drive-suppliers.html): China's harmonic drive supplier list, ranked.
+- [Planetary Roller Screw Suppliers China](https://www.robotichina.com/china-planetary-roller-screw-suppliers.html): Who makes roller screws inside Chinese humanoids.
+- [China Humanoid Robot Policy & Funds](https://www.robotichina.com/china-humanoid-robot-policy-fund.html): How state money backs the humanoid bet.
+- [AgiBot A2 vs Unitree G1: Head-to-Head](https://www.robotichina.com/agibot-a2-vs-unitree-g1.html): China two best-known humanoids compared \u2014 full-size commercial vs budget volume.
+- [Unitree Go2 Specs, Fully Broken Down](https://www.robotichina.com/unitree-go2-specs.html): Every Go2 spec \u2014 size weight DOF joints LIDAR speed payload price variants.
+- [Unitree Go2 vs Xiaomi CyberDog: Compared](https://www.robotichina.com/unitree-go2-vs-xiaomi-cyberdog.html): China two most popular robot dogs compared — specs price sensors AI.
+- [China's Dexterous Hand Suppliers](https://www.robotichina.com/china-dexterous-hand-suppliers.html): Who makes the hands on humanoids — Inspire, Linkerbot, PaXini and the supply chain.
+- [China's LiDAR Suppliers](https://www.robotichina.com/china-lidar-suppliers.html): Who makes the world's LiDAR — Hesai, RoboSense, Seyond, Huawei and the robot-native players.
+- [China's RV Reducer Suppliers](https://www.robotichina.com/china-rv-reducer-suppliers.html): Who carries the heavy joints of China's robots — RV reducer suppliers ranked against Japan's Nabtesco.
+- [China's Humanoid Actuator Suppliers](https://www.robotichina.com/china-humanoid-actuator-suppliers.html): Who builds the muscles of humanoid robots — China's actuator and joint-module suppliers ranked.
+- [China's Planetary Roller Screw Suppliers](https://www.robotichina.com/china-planetary-roller-screw-suppliers.html): The priciest part of a humanoid — China's planetary roller screw suppliers breaking Europe's monopoly.
+- [Tencent Robotics: Building Brains, Not Bots](https://www.robotichina.com/tencent-robotics.html): Why Tencent builds the 'brain' not the body — Xiao Liu, Tairos platform and embodied-AI models.
+- [China's Coreless Motor Suppliers](https://www.robotichina.com/china-coreless-motor-suppliers.html): The heart of the dexterous hand — China's coreless motor suppliers breaking Maxon's monopoly.
+- [China's Force & Tactile Sensor Suppliers](https://www.robotichina.com/china-force-tactile-sensor-suppliers.html): Touch sensors went from bottleneck to global lead — China's force and tactile sensor suppliers ranked.
+- [China's Encoder Suppliers](https://www.robotichina.com/china-encoder-suppliers.html): The eyes of every joint — who's closing Heidenhain's encoder gap in China.
+- [China's Planetary Reducer Suppliers](https://www.robotichina.com/china-planetary-reducer-suppliers.html): Torque for the heavy joints — Zhongda Leader's 3.2B RMB Unitree contract and the challengers.
+- [The China Humanoid Supply Chain: A Complete Guide](https://www.robotichina.com/china-humanoid-supply-chain.html): The pillar guide to China's humanoid supply chain — who leads every component in 2026.
+- [China's Clean Room Robots: The Machines Behind Chip Fabs](https://www.robotichina.com/china-clean-room-robots.html): US$1.7B market, 20.8% CAGR — Topstar, SIASUN and Estun move wafers in China's fabs.
+- [China's Educational Robots: The Market Teaching a Nation to Code](https://www.robotichina.com/china-educational-robots.html): $244M today, $1.16B by 2035 — UBTECH, Makeblock and DJI Education train China's next engineers.
+- [Who Is Dreame? Inside China's $4B Robot Empire](https://www.robotichina.com/dreame-technology.html): $4B vacuum giant now building humanoids via Magic Atom — the full story of Yu Hao's empire.
+## Core sections
+- [Home](https://www.robotichina.com/): China Robotics Insider hub
+- [Company Database](https://www.robotichina.com/database/index.html): 100+ structured profiles of Chinese robotics companies
+- [History](https://www.robotichina.com/history.html): How China's robotics industry developed
+- [People](https://www.robotichina.com/people.html): Founders and key figures
+- [Products](https://www.robotichina.com/products.html): Frontier products
+- [News](https://www.robotichina.com/news.html): Industry news
