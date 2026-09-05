@@ -3,10 +3,12 @@ name: Scheduled Publish
 # Merge scheduled content from the drafts branch into main.
 # GitHub Pages deploys from main, so drafts is never visible until release.
 # cron fields: minute hour day month weekday (UTC).
-# Example: "0 4 5 9 *" = Sep 5, 04:00 UTC = 12:00 Beijing.
+# "0 4 * * *" = every day 04:00 UTC = 12:00 Beijing.
+# The job only publishes when drafts has content newer than main,
+# so daily runs are no-ops unless content is staged in drafts.
 on:
   schedule:
-    - cron: "0 4 5 9 *"
+    - cron: "0 4 * * *"
   workflow_dispatch:
 
 permissions:
