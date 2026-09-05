@@ -1,4 +1,4 @@
-/* China Robotics Insider - static search index */
+﻿/* China Robotics Insider - static search index */
 window.SEARCH_INDEX = [
   { "u": "index.html", "t": "Home — China Robotics Insider", "cat": "Home", "k": "china robotics humanoid industry overview guide english", "d": "An independent English-language guide to China's robotics industry — founders, companies, history and products." },
   { "u": "history.html", "t": "Development History", "cat": "History", "k": "history 1980 timeline siasun jiang xinsong 863 program evolution", "d": "From China's first industrial robot in 1980 to the humanoid era — the full history of Chinese robotics." },
@@ -178,5 +178,7 @@ window.SEARCH_INDEX = [
   {"u": "china-humanoid-supply-chain.html", "t": "The China Humanoid Supply Chain: A Complete Guide", "cat": "Insights", "k": "china humanoid robot supply chain components reducers actuators encoders sensors lidar 2026 pillar guide", "d": "The pillar guide to China's humanoid supply chain — who leads every component in 2026."},
   {"u": "china-clean-room-robots.html", "t": "China's Clean Room Robots: The Machines Behind Chip Fabs", "cat": "Insights", "k": "china clean room robots cleanroom robots wafer handling semiconductor topstar siasun estun 2026", "d": "US$1.7B market, 20.8% CAGR — Topstar, SIASUN and Estun move wafers in China's fabs."},
   {"u": "china-educational-robots.html", "t": "China's Educational Robots: The Market Teaching a Nation to Code", "cat": "Insights", "k": "china educational robots educational robot market stem coding robot ubtch makeblock mbot dji robo master robo master 2026", "d": "$244M today, $1.16B by 2035 — UBTECH, Makeblock and DJI Education train China's next engineers."},
-  {"u": "dreame-technology.html", "t": "Who Is Dreame? Inside China's $4B Robot Empire", "cat": "Insights", "k": "dreame dreame technology dreame robot dreame humanoid dreame in chinese yu hao magic atom 2026", "d": "$4B vacuum giant now building humanoids via Magic Atom — the full story of Yu Hao's empire."}
+  {"u": "dreame-technology.html", "t": "Who Is Dreame? Inside China's $4B Robot Empire", "cat": "Insights", "k": "dreame dreame technology dreame robot dreame humanoid dreame in chinese yu hao magic atom 2026", "d": "$4B vacuum giant now building humanoids via Magic Atom — the full story of Yu Hao's empire."},
+
+  { "u": "china-frameless-torque-motor-suppliers.html", "t": "China's Frameless Torque Motor Suppliers: The Muscles of Humanoid Joints", "cat": "Insights", "k": "china frameless torque motor suppliers frameless torque motor humanoid joint motor china inovance kinco leadshine moons 无框力矩电机 2026", "d": "Inovance holds 50%+ share, Kinco hits 18.3 Nm/kg — China maps the frameless torque motor suppliers powering every humanoid joint." }
 ];
