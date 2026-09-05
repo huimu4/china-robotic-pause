@@ -29,6 +29,8 @@ jobs:
           git config user.email "bot@robotichina.com"
           git checkout main
           git checkout origin/drafts -- . || git checkout drafts -- .
+          # Keep the workflow itself from main so auto-publish never rolls it back
+          git checkout origin/main -- .github
 
       - name: Commit and push
         run: |
