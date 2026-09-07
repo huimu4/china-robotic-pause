@@ -147,6 +147,9 @@
 - [China's Clean Room Robots: The Machines Behind Chip Fabs](https://www.robotichina.com/china-clean-room-robots.html): US$1.7B market, 20.8% CAGR — Topstar, SIASUN and Estun move wafers in China's fabs.
 - [China's Educational Robots: The Market Teaching a Nation to Code](https://www.robotichina.com/china-educational-robots.html): $244M today, $1.16B by 2035 — UBTECH, Makeblock and DJI Education train China's next engineers.
 - [Who Is Dreame? Inside China's $4B Robot Empire](https://www.robotichina.com/dreame-technology.html): $4B vacuum giant now building humanoids via Magic Atom — the full story of Yu Hao's empire.
+- [Dreame Magic Atom: The Humanoid Bet of China's Robot Vacuum King](https://www.robotichina.com/dreame-magic-atom.html): Dreame's humanoid spin-off raised ¥500M led by Tuopu and already runs MagicBots on its own factory lines.
+- [China's Bearing Suppliers: The Silent Parts Inside Every Humanoid Joint](https://www.robotichina.com/china-bearing-suppliers.html): ~72 precision bearings per humanoid — Luoyang Hongyuan, Wuzhou Xinchun and LYC break SKF's grip.
+- [China's Frameless Torque Motor Suppliers: The Muscles of Humanoid Joints](https://www.robotichina.com/china-frameless-torque-motor-suppliers.html): Inovance, Kinco and Leadshine own China's ring-motor volume for humanoid joints.
 ## Core sections
 - [Home](https://www.robotichina.com/): China Robotics Insider hub
 - [Company Database](https://www.robotichina.com/database/index.html): 100+ structured profiles of Chinese robotics companies
