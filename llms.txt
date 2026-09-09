@@ -152,6 +152,7 @@
 - [China's Frameless Torque Motor Suppliers: The Muscles of Humanoid Joints](https://www.robotichina.com/china-frameless-torque-motor-suppliers.html): Inovance, Kinco and Leadshine own China's ring-motor volume for humanoid joints.
 - [The $399 Robot Duck That Broke the Internet Is Made in Shenzhen](https://www.robotichina.com/microduck-shenzhen-supply-chain.html): Microduck's Seeed Studio assembly, Rockchip RK3566 brain and Radxa board \u2014 how Chinese manufacturing enabled physical-AI democratization.
 - [China Ships 97% of the World's Humanoids: The Export Machine Behind the Robot Boom](https://www.robotichina.com/china-robot-exports.html): AgiBot 44%, Unitree 31% of global humanoid shipments; exports +210% YoY; the three-stage overseas playbook.
+- [China's Humanoid Robots for Elderly Care: 237 Chains, ¥420M Revenue, and 320 Million Seniors](https://www.robotichina.com/china-humanoid-elderly-care.html): UBTECH Walker X in 237 nursing chains, Fourier's GR-3 Care-bot, Leju's Kuafu \u2014 what scales first in senior care.
 ## Core sections
 - [Home](https://www.robotichina.com/): China Robotics Insider hub
 - [Company Database](https://www.robotichina.com/database/index.html): 100+ structured profiles of Chinese robotics companies
