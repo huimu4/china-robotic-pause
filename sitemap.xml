@@ -1086,13 +1086,4 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-<<<<<<< HEAD
-=======
-  <url>
-    <loc>https://www.robotichina.com/china-exoskeleton-robots.html</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
->>>>>>> d537ae4 (Add China exoskeleton robots article (IDC ¥1.6B market, Hypershell/UlsRobotics/Fourier))
 </urlset>
