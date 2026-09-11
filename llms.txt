@@ -153,6 +153,8 @@
 - [The $399 Robot Duck That Broke the Internet Is Made in Shenzhen](https://www.robotichina.com/microduck-shenzhen-supply-chain.html): Microduck's Seeed Studio assembly, Rockchip RK3566 brain and Radxa board \u2014 how Chinese manufacturing enabled physical-AI democratization.
 - [China Ships 97% of the World's Humanoids: The Export Machine Behind the Robot Boom](https://www.robotichina.com/china-robot-exports.html): AgiBot 44%, Unitree 31% of global humanoid shipments; exports +210% YoY; the three-stage overseas playbook.
 - [China's Humanoid Robots for Elderly Care: 237 Chains, ¥420M Revenue, and 320 Million Seniors](https://www.robotichina.com/china-humanoid-elderly-care.html): UBTECH Walker X in 237 nursing chains, Fourier's GR-3 Care-bot, Leju's Kuafu \u2014 what scales first in senior care.
+- [China's Exoskeleton Robots: 26,000 Units in 2025 \u2014 the Wearable Robot Market About to Explode](https://www.robotichina.com/china-exoskeleton-robots.html): IDC's first China report \u2014 \u00a51.6B market, medical vs consumer split, Hypershell Halo, UlsRobotics and the insurance trigger.
+- [XPENG's IRON Walks Off China's First Automated Humanoid Line](https://www.robotichina.com/xpeng-iron-production-line.html): world's first automated humanoid production line; IRON 178cm/70kg/76+42 DOF/2,250 TOPS; >80% core automation, 85% EV supply-chain overlap; volume by end-2026, overseas H2 2027.
 ## Core sections
 - [Home](https://www.robotichina.com/): China Robotics Insider hub
 - [Company Database](https://www.robotichina.com/database/index.html): 100+ structured profiles of Chinese robotics companies
