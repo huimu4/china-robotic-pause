@@ -156,6 +156,7 @@
 - [China's Exoskeleton Robots: 26,000 Units in 2025 \u2014 the Wearable Robot Market About to Explode](https://www.robotichina.com/china-exoskeleton-robots.html): IDC's first China report \u2014 \u00a51.6B market, medical vs consumer split, Hypershell Halo, UlsRobotics and the insurance trigger.
 - [XPENG's IRON Walks Off China's First Automated Humanoid Line](https://www.robotichina.com/xpeng-iron-production-line.html): world's first automated humanoid production line; IRON 178cm/70kg/76+42 DOF/2,250 TOPS; >80% core automation, 85% EV supply-chain overlap; volume by end-2026, overseas H2 2027.
 - [China's Cloud Robotics: The $14B Bet That Robot Brains Belong in the Cloud](https://www.robotichina.com/china-cloud-robotics.html): global cloud robotics $14.2B (2026) to $92.1B (2035); China intelligent cloud robot market \u00a5412.6B; CloudMinds XR-4 (168cm, 60+ joints, 10kg arm) and Datta Robotics' \u00a53B seed round; cloud-brain vs on-device AI.
+- [US-Listed China Robotics Stocks: XPEV, FFIE, HSAI and the 2026 Robot Stock Wave](https://www.robotichina.com/us-listed-china-robotics-stocks.html): direct US tickers for China robotics \u2014 XPeng (PX unit >$900M round, IRON line live), Faraday Future (9 robots Sep 19), Hesai (robot LiDAR #1); UBTECH OTC; Unitree A-share IPO halved 55%.
 ## Core sections
 - [Home](https://www.robotichina.com/): China Robotics Insider hub
 - [Company Database](https://www.robotichina.com/database/index.html): 100+ structured profiles of Chinese robotics companies
