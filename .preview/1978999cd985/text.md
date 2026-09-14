@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search — China Robotics Insider</title>
+  <meta name="description" content="Search China Robotics Insider for companies, founders, products, history and news.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="China Robotics Insider home">
+      <svg class="logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="8" y="16" width="24" height="15" rx="4" fill="#2563eb"/>
+        <rect x="5" y="12" width="4" height="9" rx="2" fill="#f59e0b"/>
+        <rect x="31" y="12" width="4" height="9" rx="2" fill="#f59e0b"/>
+        <rect x="13" y="20" width="4" height="4" rx="1" fill="#fff"/>
+        <rect x="23" y="20" width="4" height="4" rx="1" fill="#fff"/>
+        <rect x="18" y="27" width="4" height="4" rx="1" fill="#fff"/>
+        <circle cx="9" cy="30" r="2.4" fill="#0d9488"/>
+        <circle cx="31" cy="30" r="2.4" fill="#0d9488"/>
+      </svg>
+      <span>China Robotics <b>Insider</b></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="companies.html">Companies</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="articles.html">Insights</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="nav-search">
+          <form class="search-form" action="search.html" method="get" role="search">
+            <input type="search" name="q" placeholder="Search…" aria-label="Search this site">
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="search-page">
+  <section class="page-hero">
+    <div class="container ph-inner">
+      <span class="kicker">Search</span>
+      <h1>Search the site</h1>
+      <p>Find companies, founders, products and articles across China Robotics Insider.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <form class="search-box" action="search.html" method="get" role="search">
+        <input type="search" id="search-input" name="q" placeholder="Try “Unitree”, “Wang Xingxing”, “humanoid”…" aria-label="Search query">
+      </form>
+      <p class="search-count" id="search-count"></p>
+      <div class="card-grid" id="search-results"></div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a class="brand" href="index.html" style="color:#fff;">
+          <span>China Robotics <b style="color:#fbbf24;">Insider</b></span>
+        </a>
+        <p>An independent English-language guide to China's robotics industry — founders, companies, history and products.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="history.html">Development History</a>
+        <a href="people.html">Founders &amp; Key Figures</a>
+        <a href="companies.html">Companies &amp; Startups</a>
+        <a href="products.html">Cutting-edge Products</a>
+      </div>
+      <div>
+        <h4>Company focus</h4>
+        <a href="companies.html#humanoid">Humanoid &amp; Embodied AI</a>
+        <a href="companies.html#industrial">Industrial Robots</a>
+        <a href="companies.html#service">Service &amp; Cleaning</a>
+        <a href="companies.html#components">Components &amp; Ecosystem</a>
+      </div>
+      <div>
+        <h4>Insights</h4>
+        <a href="articles.html">All Articles</a>
+        <a href="humanoid-robot-race.html">The Humanoid Robot Race</a>
+        <a href="china-robot-vacuums.html">Robot Vacuums</a>
+        <a href="china-industrial-robots.html">Industrial Robots</a>
+        <a href="robot-startup-funding.html">Startup Funding</a>
+      </div>
+
+      <div>
+        <h4>Site</h4>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> China Robotics Insider. All rights reserved.</span>
+      <span>Independent editorial coverage · Not affiliated with any company listed.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+
+
+<script src="js/search-index.js"></script>
+<script src="js/search.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

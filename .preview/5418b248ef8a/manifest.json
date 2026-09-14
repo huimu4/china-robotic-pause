@@ -1,0 +1,89 @@
+{
+  "schema_version": "1",
+  "source_path": "D:\\ObsidianVault\\机器人精英圈\\china-robotics-site\\people.html",
+  "source_filename": "people.html",
+  "source_hash": "5418b248ef8a",
+  "source_size_bytes": 24029,
+  "kind": "html",
+  "rendered_at_utc": "2026-08-26T10:36:26+00:00",
+  "output_dir": "D:\\ObsidianVault\\机器人精英圈\\china-robotics-site\\.preview\\5418b248ef8a",
+  "page_count": 5,
+  "rendered_page_count": 5,
+  "collage_count": 2,
+  "extracted_text_chars": 23832,
+  "text_relpath": "text.md",
+  "thumbnail_relpath": "thumb.jpg",
+  "pages": [
+    {
+      "page": 1,
+      "relpath": "pages\\p001.png",
+      "size_bytes": 39471,
+      "width": 1280,
+      "height": 1600
+    },
+    {
+      "page": 2,
+      "relpath": "pages\\p002.png",
+      "size_bytes": 196416,
+      "width": 1280,
+      "height": 1600
+    },
+    {
+      "page": 3,
+      "relpath": "pages\\p003.png",
+      "size_bytes": 188928,
+      "width": 1280,
+      "height": 1600
+    },
+    {
+      "page": 4,
+      "relpath": "pages\\p004.png",
+      "size_bytes": 182342,
+      "width": 1280,
+      "height": 1600
+    },
+    {
+      "page": 5,
+      "relpath": "pages\\p005.png",
+      "size_bytes": 18061,
+      "width": 1280,
+      "height": 171
+    }
+  ],
+  "collages": [
+    {
+      "relpath": "collages\\c1.jpg",
+      "covers_pages": [
+        1,
+        2,
+        3
+      ],
+      "grid_cols": 2,
+      "grid_rows": 1,
+      "size_bytes": 111920
+    },
+    {
+      "relpath": "collages\\c2.jpg",
+      "covers_pages": [
+        4,
+        5
+      ],
+      "grid_cols": 2,
+      "grid_rows": 1,
+      "size_bytes": 9304
+    }
+  ],
+  "warnings": [],
+  "options": {
+    "max_pages": 12,
+    "collage": true,
+    "page_range": null,
+    "thumbnail": true,
+    "text_only": false,
+    "jpeg_quality": 85,
+    "out_max_dim": 2048
+  },
+  "summary": {
+    "bytes": 24029
+  }
+}

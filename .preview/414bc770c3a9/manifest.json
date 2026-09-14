@@ -1,0 +1,105 @@
+{
+  "schema_version": "1",
+  "source_path": "D:\\ObsidianVault\\机器人精英圈\\china-robotics-site\\index.html",
+  "source_filename": "index.html",
+  "source_hash": "414bc770c3a9",
+  "source_size_bytes": 17327,
+  "kind": "html",
+  "rendered_at_utc": "2026-08-26T10:06:10+00:00",
+  "output_dir": "D:\\ObsidianVault\\机器人精英圈\\china-robotics-site\\.preview\\414bc770c3a9",
+  "page_count": 7,
+  "rendered_page_count": 7,
+  "collage_count": 2,
+  "extracted_text_chars": 16964,
+  "text_relpath": "text.md",
+  "thumbnail_relpath": "thumb.jpg",
+  "pages": [
+    {
+      "page": 1,
+      "relpath": "pages\\p001.png",
+      "size_bytes": 44780,
+      "width": 1280,
+      "height": 1600
+    },
+    {
+      "page": 2,
+      "relpath": "pages\\p002.png",
+      "size_bytes": 60083,
+      "width": 1280,
+      "height": 1600
+    },
+    {
+      "page": 3,
+      "relpath": "pages\\p003.png",
+      "size_bytes": 60677,
+      "width": 1280,
+      "height": 1600
+    },
+    {
+      "page": 4,
+      "relpath": "pages\\p004.png",
+      "size_bytes": 34029,
+      "width": 1280,
+      "height": 1600
+    },
+    {
+      "page": 5,
+      "relpath": "pages\\p005.png",
+      "size_bytes": 70930,
+      "width": 1280,
+      "height": 1600
+    },
+    {
+      "page": 6,
+      "relpath": "pages\\p006.png",
+      "size_bytes": 125391,
+      "width": 1280,
+      "height": 1600
+    },
+    {
+      "page": 7,
+      "relpath": "pages\\p007.png",
+      "size_bytes": 54852,
+      "width": 1280,
+      "height": 625
+    }
+  ],
+  "collages": [
+    {
+      "relpath": "collages\\c1.jpg",
+      "covers_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "grid_cols": 2,
+      "grid_rows": 2,
+      "size_bytes": 94588
+    },
+    {
+      "relpath": "collages\\c2.jpg",
+      "covers_pages": [
+        5,
+        6,
+        7
+      ],
+      "grid_cols": 2,
+      "grid_rows": 1,
+      "size_bytes": 92600
+    }
+  ],
+  "warnings": [],
+  "options": {
+    "max_pages": 12,
+    "collage": true,
+    "page_range": null,
+    "thumbnail": true,
+    "text_only": false,
+    "jpeg_quality": 85,
+    "out_max_dim": 2048
+  },
+  "summary": {
+    "bytes": 17327
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "1",
+  "source_path": "D:\\ObsidianVault\\机器人精英圈\\china-robotics-site\\person-peng-zhihui.html",
+  "source_filename": "person-peng-zhihui.html",
+  "source_hash": "4ee819a45cc4",
+  "source_size_bytes": 8675,
+  "kind": "html",
+  "rendered_at_utc": "2026-08-26T10:35:13+00:00",
+  "output_dir": "D:\\ObsidianVault\\机器人精英圈\\china-robotics-site\\.preview\\4ee819a45cc4",
+  "page_count": 3,
+  "rendered_page_count": 3,
+  "collage_count": 2,
+  "extracted_text_chars": 8622,
+  "text_relpath": "text.md",
+  "thumbnail_relpath": "thumb.jpg",
+  "pages": [
+    {
+      "page": 1,
+      "relpath": "pages\\p001.png",
+      "size_bytes": 38564,
+      "width": 1280,
+      "height": 1600
+    },
+    {
+      "page": 2,
+      "relpath": "pages\\p002.png",
+      "size_bytes": 161042,
+      "width": 1280,
+      "height": 1600
+    },
+    {
+      "page": 3,
+      "relpath": "pages\\p003.png",
+      "size_bytes": 7841,
+      "width": 1280,
+      "height": 33
+    }
+  ],
+  "collages": [
+    {
+      "relpath": "collages\\c1.jpg",
+      "covers_pages": [
+        1,
+        2
+      ],
+      "grid_cols": 2,
+      "grid_rows": 1,
+      "size_bytes": 86418
+    },
+    {
+      "relpath": "collages\\c2.jpg",
+      "covers_pages": [
+        3
+      ],
+      "grid_cols": 2,
+      "grid_rows": 1,
+      "size_bytes": 4830
+    }
+  ],
+  "warnings": [],
+  "options": {
+    "max_pages": 12,
+    "collage": true,
+    "page_range": null,
+    "thumbnail": true,
+    "text_only": false,
+    "jpeg_quality": 85,
+    "out_max_dim": 2048
+  },
+  "summary": {
+    "bytes": 8675
+  }
+}

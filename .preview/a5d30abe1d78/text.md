@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Great Humanoid Robot Race: 7 Chinese Companies to Watch in 2026 | China Robotics Insider</title>
+  <meta name="description" content="China shipped most of the world's humanoid robots in 2025. These are the 7 Chinese companies leading the race — Unitree, Agibot, UBTECH, Fourier, EngineAI, AI² Robotics and Booster Robotics.">
+  <meta name="keywords" content="Chinese humanoid robot companies, Unitree vs Agibot, UBTECH humanoid, Fourier GR series, EngineAI T800, embodied AI China, humanoid robots 2026">
+  <link rel="canonical" href="https://www.robotichina.com/humanoid-robot-race.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="China Robotics Insider">
+  <meta property="og:title" content="The Great Humanoid Robot Race: 7 Chinese Companies to Watch">
+  <meta property="og:description" content="China shipped roughly 18,000 humanoid robots in 2025 — most of the global total. Meet the seven companies leading the race.">
+  <meta property="og:url" content="https://www.robotichina.com/humanoid-robot-race.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Great Humanoid Robot Race: 7 Chinese Companies to Watch in 2026",
+    "description": "A field guide to the seven Chinese companies leading the world's humanoid robot race.",
+    "inLanguage": "en",
+    "datePublished": "2026-08-26",
+    "publisher": { "@type": "Organization", "name": "China Robotics Insider" }
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="China Robotics Insider home">
+      <svg class="logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="8" y="16" width="24" height="15" rx="4" fill="#2563eb"/>
+        <rect x="5" y="12" width="4" height="9" rx="2" fill="#f59e0b"/>
+        <rect x="31" y="12" width="4" height="9" rx="2" fill="#f59e0b"/>
+        <rect x="13" y="20" width="4" height="4" rx="1" fill="#fff"/>
+        <rect x="23" y="20" width="4" height="4" rx="1" fill="#fff"/>
+        <rect x="18" y="27" width="4" height="4" rx="1" fill="#fff"/>
+        <circle cx="9" cy="30" r="2.4" fill="#0d9488"/>
+        <circle cx="31" cy="30" r="2.4" fill="#0d9488"/>
+      </svg>
+      <span>China Robotics <b>Insider</b></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="companies.html">Companies</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="articles.html" class="active">Insights</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container ph-inner">
+      <span class="kicker">Insights · Humanoid robots</span>
+      <h1>The Great Humanoid Robot Race</h1>
+      <p>China shipped roughly 18,000 humanoid robots in 2025 — the majority of the global total. Here are the seven companies leading the race, and the one force that will decide who wins.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="prose">
+
+        <p>Two years ago, the humanoid robot was a demo prop — a machine that waved, walked and fell over on a stage. In 2026, it is a product with order books, production lines and IPO filings. And no country has moved faster than China, which shipped roughly <strong>18,000 humanoid robots in 2025, the majority of the world's total</strong>.</p>
+
+        <p>More than 47 Chinese startups entered the space at the peak of the boom. But as the industry enters its "mass production" phase, capital is concentrating. These are the seven companies that matter right now.</p>
+
+        <h2>1. Unitree Robotics — the cost-engineering machine</h2>
+        <p>The Hangzhou company started with quadruped robots and became the world's largest humanoid shipper. Its G1 was the first mass-produced biped to cross 10,000 units, and in 2026 the H1 was clocked sprinting at 10 m/s — near human record pace. Unitree's edge is vertical integration: it builds its own motors, actuators and control software, letting it price humanoids far below rivals. It filed for a Star Market IPO that cleared in a record 73 days.</p>
+
+        <h2>2. Agibot — the fastest riser</h2>
+        <p>Founded in 2023 by Huawei "genius" Peng Zhihui, Shanghai's Agibot reached a <strong>15-billion-yuan valuation in three years</strong> with 10 financing rounds and more than 50 investors. In H1 2026 it overtook Unitree in shipments — roughly 8,400 units, about 44% of the market — and has launched a Hong Kong IPO. Its "Yuanzheng" and "Lingxi" families cover full-size and compact humanoids.</p>
+
+        <h2>3. UBTECH — the listed pioneer</h2>
+        <p>UBTECH became the world's first listed humanoid-robot company in December 2023 (HKEX 09880). Its Walker S series is one of the few humanoids working real shifts on real automotive assembly lines. 2026 is its "large-scale commercialisation" year, with the Walker S target raised to 5,000 units.</p>
+
+        <h2>4. Fourier Intelligence — the rehabilitation veteran</h2>
+        <p>Shanghai's Fourier built its actuation expertise in rehabilitation robotics before pivoting to full-size humanoids. Its GR series — GR-1, GR-2, GR-3 — evolved from that foundation, with GR-3 targeting elderly care. Backed by SoftBank Vision Fund 2 and Saudi Aramco's Prosperity7, Fourier also open-sourced a large humanoid training dataset called Fourier ActionNet.</p>
+
+        <h2>5. EngineAI — the showman</h2>
+        <p>Shenzhen's EngineAI shot to a 10-billion-yuan valuation with its T800 — the 1.7-metre humanoid that danced, played football and famously knocked its own founder across a showroom with a kick. Behind the viral moments sits a ladder of products: T800 for general use, SA02 for commercial, PM01 for research. A US$200 million Series B in 2026 capped its run to the Hong Kong IPO.</p>
+
+        <h2>6. AI² Robotics — the model-first bet</h2>
+        <p>Founder Guo Yandong is betting that humanoid success is a software problem. AI² Robotics (智平方) builds end-to-end vision-language-action models, deployed through its wheeled dual-arm "AlphaBot" in automotive, semiconductor and biopharma plants — with 50,000+ hours without core failure. It is reportedly valued above 20 billion yuan.</p>
+
+        <h2>7. Booster Robotics — the developer platform</h2>
+        <p>Founded by a former Tsinghua robot-football team captain, Beijing's Booster positioned itself around developers and education. Its T-series humanoids were the standard "player" at the 2026 World Humanoid Robot Games — about <strong>92% of competing teams used its platform</strong>.</p>
+
+        <div class="callout">
+          <p><strong>The one force that will decide the race: cost per working hour.</strong> Every one of these companies is chasing the same milestone — a humanoid that can work an eight-hour factory shift at a price that beats a human worker. The winner is whoever reaches that number first, at scale.</p>
+        </div>
+
+        <p>The industry calls 2026 the "year of mass production," but it is also the year of the great shakeout. The capital that once backed 50 players is concentrating on five to eight. The companies above are the ones still standing — and the ones worth watching.</p>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Go deeper</span>
+        <h2>Related reading</h2>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <h3><a href="companies.html">Companies &amp; Startups</a></h3>
+          <p>The full landscape — all seven humanoid leaders plus industrial, service, aerial and component players.</p>
+          <div class="tag-row"><span class="tag teal">Companies</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="products.html">Cutting-edge Products</a></h3>
+          <p>The machines themselves: Unitree G1 and H1, Agibot Yuanzheng A2, UBTECH Walker S, Fourier GR series, EngineAI T800.</p>
+          <div class="tag-row"><span class="tag blue">Products</span></div>
+        </article>
+        <article class="card">
+          <h3><a href="robot-startup-funding.html">Inside the Money</a></h3>
+          <p>How China's robot startups raise hundreds of millions of yuan — the funding mechanics behind the race.</p>
+          <div class="tag-row"><span class="tag amber">Insights</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band">
+        <div>
+          <h3>New here? Meet the people behind the race</h3>
+          <p>From the "Father of Chinese Robotics" to 20-something PhD founders raising hundreds of millions.</p>
+        </div>
+        <a class="btn btn-primary" href="people.html">Meet the people</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a class="brand" href="index.html" style="color:#fff;">
+          <span>China Robotics <b style="color:#fbbf24;">Insider</b></span>
+        </a>
+        <p>An independent English-language guide to China's robotics industry — founders, companies, history and products.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="history.html">Development History</a>
+        <a href="people.html">Founders &amp; Key Figures</a>
+        <a href="companies.html">Companies &amp; Startups</a>
+        <a href="products.html">Cutting-edge Products</a>
+      </div>
+      <div>
+        <h4>Insights</h4>
+        <a href="articles.html">All Articles</a>
+        <a href="humanoid-robot-race.html">The Humanoid Robot Race</a>
+        <a href="china-robot-vacuums.html">Robot Vacuums</a>
+        <a href="china-industrial-robots.html">Industrial Robots</a>
+        <a href="robot-startup-funding.html">Startup Funding</a>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> China Robotics Insider. All rights reserved.</span>
+      <span>Independent editorial coverage · Not affiliated with any company listed.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1",
+  "source_path": "D:\\ObsidianVault\\机器人精英圈\\china-robotics-site\\search.html",
+  "source_filename": "search.html",
+  "source_hash": "1978999cd985",
+  "source_size_bytes": 5082,
+  "kind": "html",
+  "rendered_at_utc": "2026-08-26T11:00:45+00:00",
+  "output_dir": "D:\\ObsidianVault\\机器人精英圈\\china-robotics-site\\.preview\\1978999cd985",
+  "page_count": 1,
+  "rendered_page_count": 1,
+  "collage_count": 0,
+  "extracted_text_chars": 4933,
+  "text_relpath": "text.md",
+  "thumbnail_relpath": "thumb.jpg",
+  "pages": [
+    {
+      "page": 1,
+      "relpath": "pages\\p001.png",
+      "size_bytes": 87624,
+      "width": 1280,
+      "height": 2193
+    }
+  ],
+  "collages": [],
+  "warnings": [],
+  "options": {
+    "max_pages": 12,
+    "collage": true,
+    "page_range": null,
+    "thumbnail": true,
+    "text_only": false,
+    "jpeg_quality": 85,
+    "out_max_dim": 2048
+  },
+  "summary": {
+    "bytes": 5082
+  }
+}
