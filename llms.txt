@@ -171,3 +171,4 @@
 - [Products](https://www.robotichina.com/products.html): Frontier products
 - [News](https://www.robotichina.com/news.html): Industry news
 - [UBTECH UWORLD U1 vs Tesla Optimus: 13,361 Orders Start Shipping Today](https://www.robotichina.com/ubtech-uworld-u1-vs-optimus.html): The first mass-market companion humanoid starts shipping Sep 16 2026 — 88 DoF, RMB 119,800-990,000, 13,361 pre-orders — compared with Tesla Optimus, and the delivery test ahead.
+- [Chinese RV Reducers vs Nabtesco: How 24.98% Is Cracking a 60% Monopoly](https://www.robotichina.com/china-rv-reducers-vs-nabtesco.html): Nabtesco holds ~60% of global RV reducers; Shuanghuan reached 24.98% domestic share, ships lightweight RV into Tesla Optimus' waist at RMB 2,950 average price.
