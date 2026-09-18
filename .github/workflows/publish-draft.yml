@@ -1,14 +1,11 @@
 name: Scheduled Publish
 
-# Merge scheduled content from the drafts branch into main.
-# GitHub Pages deploys from main, so drafts is never visible until release.
-# cron fields: minute hour day month weekday (UTC).
-# "0 4 * * *" = every day 04:00 UTC = 12:00 Beijing.
-# The job only publishes when drafts has content newer than main,
-# so daily runs are no-ops unless content is staged in drafts.
+# DISABLED auto-schedule (was "0 4 * * *"): the old drafts-branch merge copied
+# an entire stale drafts snapshot over main, which rolled back search-index /
+# sitemap / llms entries and the og:image fix on every run (see commit 36223ca).
+# Publishing is now manual (local push to main). This workflow stays only for
+# manual on-demand runs via the "Run workflow" button on the Actions tab.
 on:
-  schedule:
-    - cron: "0 4 * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,16 +20,22 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Pull scheduled content from drafts branch
+      - name: Publish only NEW html files from drafts branch
         run: |
           git config user.name "robotichina-bot"
           git config user.email "bot@robotichina.com"
-          git checkout main
-          git checkout origin/drafts -- . || git checkout drafts -- .
-          # Keep the workflow itself from main so auto-publish never rolls it back
-          git checkout origin/main -- .github
+          git fetch origin drafts
+          # Copy over only article html files that exist on drafts but not on main.
+          # Index files (articles.html, sitemap.xml, llms.txt, js/*) are NEVER
+          # overwritten by drafts — they are maintained manually on main.
+          NEW_FILES=$(git diff --diff-filter=A --name-only origin/drafts origin/main -- '*.html' || true)
+          if [ -n "$NEW_FILES" ]; then
+            for f in $NEW_FILES; do
+              git checkout origin/drafts -- "$f"
+            done
+          fi
 
-      - name: Commit and push
+      - name: Commit and push new articles
         run: |
           git add -A
           if ! git diff --cached --quiet; then
