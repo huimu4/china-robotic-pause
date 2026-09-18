@@ -156,7 +156,15 @@ h1, h2, h3, h4 { color: var(--ink-900); line-height: 1.25; font-weight: 800; let
 }
 .card .product-caption { font-size: 0.78rem; color: var(--ink-300); margin: -10px 0 14px; }
 .card .tag-row { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 6px; }
-.tag {
+.card-actions { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 8px; }
+.card-actions .site-link {
+  display: inline-flex; align-items: center; gap: 4px; margin-top: 0;
+  padding: 7px 13px; border: 1px solid var(--line-soft); border-radius: 999px;
+  background: var(--bg-soft); font-size: 0.82rem; font-weight: 600; color: var(--ink-700);
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+}
+.card-actions .site-link:hover { color: var(--blue-500); border-color: var(--blue-300); background: var(--bg-card); }
+.card-actions .site-link::after { display: none; }.tag {
   font-size: 0.74rem; font-weight: 700; padding: 3px 10px; border-radius: 999px;
   background: var(--bg-soft); color: var(--ink-500); border: 1px solid var(--line-soft);
 }
