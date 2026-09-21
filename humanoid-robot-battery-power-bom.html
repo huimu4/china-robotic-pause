@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Humanoid Robot Battery &amp; Power Supply BOM: CATL, Unitree H1 vs Tesla Optimus | China Robotics Insider</title>
+  <meta name="description" content="Why a humanoid battery pack is 1-3% of BOM but the bottleneck for autonomy. Unitree H1 0.864 kWh vs Optimus Gen2 2.3 kWh, high-nickel NMC vs LFP vs solid-state, and the Chinese EV supply chain doing the work.">
+  <meta name="keywords" content="humanoid robot battery, humanoid robot power supply BOM, CATL humanoid battery, Unitree H1 battery Wh, Optimus battery pack, high-nickel NMC vs LFP humanoid">
+  <link rel="canonical" href="https://www.robotichina.com/humanoid-robot-battery-power-bom.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="China Robotics Insider">
+  <meta property="og:title" content="Humanoid Robot Battery &amp; Power Supply BOM">
+  <meta property="og:description" content="Why 2-4 hours of runtime defines every humanoid spec sheet, and how the Chinese EV battery chain supplies it.">
+  <meta property="og:url" content="https://www.robotichina.com/humanoid-robot-battery-power-bom.html">
+  <meta property="og:image" content="https://www.robotichina.com/assets/og-default.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"TechArticle","headline":"Humanoid Robot Battery & Power Supply BOM: CATL, Unitree vs Tesla Optimus","description":"Battery pack chemistry, capacity and the Chinese EV supply chain behind humanoid runtime.","inLanguage":"en","datePublished":"2026-09-21","dateModified":"2026-09-21","author":{"@type":"Organization","name":"China Robotics Insider"},"publisher":{"@type":"Organization","name":"China Robotics Insider"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.robotichina.com/humanoid-robot-battery-power-bom.html"}}
+  </script>
+  <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How big is a humanoid robot's battery?","acceptedAnswer":{"@type":"Answer","text":"Most humanoids run 0.5-2 kWh. Unitree H1 uses a 0.864 kWh (15 Ah, 67.2 V) pack for under 4 hours; Unitree H2 PLUS uses 0.972 kWh for about 3 hours; Tesla Optimus Gen 2 uses a 2.3 kWh high-nickel pack for about 2 hours of dynamic operation."}},{"@type":"Question","name":"What chemistry do humanoid robot batteries use?","acceptedAnswer":{"@type":"Answer","text":"High-nickel NMC/NCA dominates (250-300 Wh/kg) because weight-constrained humanoids need maximum energy density and high-rate discharge. LFP is safer and cheaper but too low-density for more than ~1 hour; solid-state and semi-solid-state are the fastest-growing segment."}},{"@type":"Question","name":"Who supplies humanoid robot batteries?","acceptedAnswer":{"@type":"Answer","text":"The Chinese EV battery chain is the de facto supplier. CATL powers the Galbot S1 heavy humanoid and supplies Qilin-class 280 Wh/kg and condensed 350 Wh/kg cells; Chinese makers also draw on the same cylindrical/pouch cell supply that serves EVs."}},{"@type":"Question","name":"How much does a humanoid battery cost?","acceptedAnswer":{"@type":"Answer","text":"The battery pack is roughly 1-3% of a humanoid's total BOM by cost (a small share), but it dominates runtime and weight, making it the bottleneck for autonomy rather than the biggest line item."}}]}
+</script>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="shortcut icon" href="assets/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html"><svg class="logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="8" y="16" width="24" height="15" rx="4" fill="#2563eb"/><rect x="5" y="12" width="4" height="9" rx="2" fill="#f59e0b"/><rect x="31" y="12" width="4" height="9" rx="2" fill="#f59e0b"/><rect x="13" y="20" width="4" height="4" rx="1" fill="#fff"/><rect x="23" y="20" width="4" height="4" rx="1" fill="#fff"/><rect x="18" y="27" width="4" height="4" rx="1" fill="#fff"/><circle cx="9" cy="30" r="2.4" fill="#0d9488"/><circle cx="31" cy="30" r="2.4" fill="#0d9488"/></svg><span>China Robotics <b>Insider</b></span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="main-nav"><ul>
+      <li><a href="index.html">Home</a></li><li><a href="history.html">History</a></li><li><a href="people.html">People</a></li>
+      <li><a href="companies.html">Companies</a></li><li><a href="products.html">Products</a></li>
+      <li><a href="articles.html" class="active">Insights</a></li><li><a href="news.html">News</a></li>
+      <li><a href="database/index.html">Database</a></li><li><a href="about.html">About</a></li>
+      <li class="nav-search"><form class="search-form" action="search.html" method="get" role="search"><input type="search" name="q" placeholder="Search…" aria-label="Search this site"></form></li>
+    </ul></nav>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="container ph-inner">
+      <span class="kicker">Insights · Power &amp; BOM</span>
+      <h1>Humanoid Robot Battery &amp; Power Supply BOM: CATL, Unitree vs Tesla Optimus</h1>
+      <p>The battery is a tiny slice of a humanoid's cost — 1–3% of BOM — yet it sets the 2–4 hour runtime that defines every spec sheet. This is the power-supply breakdown: capacities, chemistry choices, and how China's EV battery chain quietly supplies the whole industry.</p>
+      <div class="article-meta">
+        <div class="byline">
+          <span class="author">By <a href="about.html" style="color:var(--ink-800);text-decoration:underline;text-underline-offset:2px;">China Robotics Insider</a></span>
+          <span class="sep">·</span><span class="date">Sep 21, 2026</span>
+          <span class="sep">·</span><span class="last-upd">Last updated: Sep 21, 2026</span>
+          <span class="sep">·</span><span class="read">8 min read</span>
+        </div>
+        <div class="interact-row">
+          <button class="interact-btn like-btn" data-slug="humanoid-battery" type="button"><span class="ic">▲</span> Like <span class="like-count">0</span></button>
+          <a class="interact-btn" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.robotichina.com%2Fhumanoid-robot-battery-power-bom.html" target="_blank" rel="noopener">Share on X</a>
+          <a class="interact-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.robotichina.com%2Fhumanoid-robot-battery-power-bom.html" target="_blank" rel="noopener">LinkedIn</a>
+          <button class="interact-btn copy-btn" data-url="https://www.robotichina.com/humanoid-robot-battery-power-bom.html" type="button">Copy link</button>
+        </div>
+      </div>
+    </div>
+    <figure class="p-figure">
+      <img src="assets/og-default.jpg" alt="Swappable lithium battery pack inside a humanoid robot torso" loading="lazy">
+      <figcaption>A swappable high-nickel lithium pack — typically 0.5-2 kWh — sits inside the torso and sets 2-4 hour runtime</figcaption>
+    </figure>
+  </section>
+
+  <section class="section"><div class="container"><div class="prose" style="max-width:860px;">
+
+<div class="blockquote answer-nugget"><strong style="color:var(--blue-600);text-transform:uppercase;font-size:12px;letter-spacing:.08em;">The answer · TL;DR</strong><br>Humanoid packs run <strong>0.5–2 kWh</strong> and deliver <strong>2–4 hours of runtime</strong>: <strong>Unitree H1 uses 0.864 kWh (15 Ah, 67.2 V) for under 4 hours; Unitree H2 PLUS uses 0.972 kWh for ~3 hours; Tesla Optimus Gen 2 uses a 2.3 kWh high-nickel pack for ~2 hours of dynamic operation</strong>. <strong>High-nickel NMC/NCA (250–300 Wh/kg) dominates</strong> because of weight constraints; LFP is too low-density beyond ~1 hour; <strong>solid/semi-solid-state is the fastest-growing segment</strong>. The entire supply chain is China's EV battery industry in another form — <strong>CATL already powers the Galbot S1 heavy humanoid</strong> and offers Qilin-class 280 Wh/kg and condensed 350 Wh/kg cells.</div>
+
+<h2>The runtime problem, in numbers</h2>
+<p>A humanoid spends almost no BOM dollars on energy — the pack is roughly <strong>1–3% of total cost</strong> — but it dominates the product spec. Two hours of walking, lifting and manipulation is just barely enough for a work shift; every extra minute demands more weight, which demands more motors, which demands more battery — the classic robot power spiral. The published numbers make the constraint obvious:</p>
+<table class="spec-table">
+  <tr><th>Robot</th><th>Battery</th><th>Voltage</th><th>Rated runtime</th><th>Robot weight</th></tr>
+  <tr><td>Unitree H1 / H1-2</td><td>0.864 kWh (15 Ah), hot-swappable</td><td>67.2 V max</td><td>&lt; 4 h (static)</td><td>~47 kg</td></tr>
+  <tr><td>Unitree H2 PLUS</td><td>0.972 kWh (15 Ah), quick-release</td><td>75.6 V max</td><td>~3 h</td><td>~70 kg</td></tr>
+  <tr><td>Unitree A2</td><td>0.454 kWh single / 0.907 kWh dual</td><td>—</td><td>dual-battery swap design</td><td>—</td></tr>
+  <tr><td>Tesla Optimus Gen 2</td><td>2.3 kWh high-nickel pack</td><td>—</td><td>~2 h dynamic</td><td>—</td></tr>
+</table>
+<p>Note the pattern: even Tesla's larger 2.3 kWh pack only buys ~2 hours of active work, because a walking humanoid draws high, spiky currents. That is why the design focus is not bigger batteries but <strong>hot-swap packs and lower actuator energy consumption</strong> (see our <a href="humanoid-robot-bom-cost-breakdown.html">BOM cost breakdown</a>).</p>
+
+<h2>Chemistry: why high-nickel, and when LFP loses</h2>
+<ul>
+  <li><strong>High-nickel NMC/NCA (250–300 Wh/kg) — dominant.</strong> It is the only chemistry that fits enough energy in a weight- and space-constrained torso while delivering the high-rate discharge walking demands. This is the chemistry in most humanoid packs today.</li>
+  <li><strong>LFP — niche.</strong> Safer and cheaper, but its lower density powers a humanoid for only ~1 hour. It survives only in indoor service robots where safety and cost beat endurance.</li>
+  <li><strong>Solid / semi-solid-state — fastest growing.</strong> The next lever for both density and safety; semi-solid packs are already appearing in robot demos (e.g. Joyson Electronics' solid-liquid hybrid cell) and are expected to extend runtime before 2030.</li>
+</ul>
+
+<h2>The Chinese EV battery chain is the hidden supplier</h2>
+<p>Here is the under-appreciated point: <strong>humanoid batteries are just EV cells repackaged.</strong> The world's leading battery makers are Chinese, and they are already on the robot's board. <strong>CATL</strong> demonstrated the first heavy-duty humanoid in regular factory operation (the 50 kg-payload <strong>Galbot S1</strong>) running on CATL batteries, and its portfolio already includes <strong>280 Wh/kg Qilin cells</strong> and <strong>350 Wh/kg condensed (aviation-grade) cells</strong> — the exact density range humanoids will demand. Other suppliers draw on the same cylindrical and pouch-cell ecosystem that serves China's EV industry, which is why a humanoid pack can be costed and scaled almost on EV terms.</p>
+
+<h2>What to watch</h2>
+<ul>
+  <li><strong>Semi-solid-state migration</strong>: which humanoid first ships a mass-production pack above ~300 Wh/kg, and the runtime jump it unlocks.</li>
+  <li><strong>Hot-swap standardization</strong>: whether quick-swap packs become a fleet model (swap-and-charge off-peak) rather than single packs.</li>
+  <li><strong>Power vs payload trade-off</strong>: heavy-duty humanoids (50 kg payload, like Galbot S1) need even larger packs — watch for dedicated heavy-humanoid battery modules from CATL/EVE/others.</li>
+</ul>
+
+<h2 id="faq">Frequently asked questions</h2>
+<h3>How big is a humanoid robot's battery?</h3>
+<p>Most humanoids run 0.5–2 kWh. Unitree H1 uses a 0.864 kWh pack for under 4 hours; H2 PLUS uses 0.972 kWh for about 3 hours; Tesla Optimus Gen 2 uses a 2.3 kWh high-nickel pack for about 2 hours of dynamic operation.</p>
+<h3>What chemistry do humanoid robot batteries use?</h3>
+<p>High-nickel NMC/NCA dominates (250–300 Wh/kg) because weight-constrained humanoids need maximum density and high-rate discharge. LFP is safer but too low-density beyond ~1 hour; solid and semi-solid-state are the fastest-growing segment.</p>
+<h3>Who supplies humanoid robot batteries?</h3>
+<p>The Chinese EV battery chain is the de facto supplier. CATL powers the Galbot S1 heavy humanoid and supplies Qilin-class 280 Wh/kg and condensed 350 Wh/kg cells; others draw on the same cylindrical/pouch supply that serves EVs.</p>
+<h3>How much does a humanoid battery cost?</h3>
+<p>The pack is roughly 1–3% of total BOM cost, a small share, but it dominates runtime and weight — the bottleneck for autonomy rather than the biggest line item.</p>
+      </div></div></section>
+
+  <section class="section section-alt"><div class="container">
+    <div class="section-head"><span class="eyebrow">Go deeper</span><h2>Related reading</h2></div>
+    <div class="card-grid">
+      <article class="card"><h3><a href="humanoid-robot-bom-cost-breakdown.html">Humanoid Robot BOM Cost Breakdown</a></h3><p>The full $20,000 teardown where the battery sits.</p></article>
+      <article class="card"><h3><a href="china-humanoid-actuator-suppliers.html">China's Humanoid Actuator Suppliers</a></h3><p>The biggest BOM consumer — and why it drives the power spiral.</p></article>
+      <article class="card"><h3><a href="unitree-g1-specs.html">Unitree G1 Specs</a></h3><p>Where the 0.864 kWh class fits in practice.</p></article>
+      <article class="card"><h3><a href="unitree-h2-vs-atlas.html">Unitree H2 vs Boston Dynamics Atlas</a></h3><p>A head-to-head on the runtime frontier.</p></article>
+    </div>
+  </div></section>
+
+  <section class="section"><div class="container">
+    <div class="cta-band"><div><h3>Follow the supply chain</h3><p>115+ company profiles and supplier teardowns.</p></div><a class="btn btn-primary" href="database/index.html">Browse the database</a></div>
+  </div></section>
+</main>
+<footer class="site-footer">
+  <div class="container"><div class="footer-grid">
+    <div class="footer-about"><a class="brand" href="index.html" style="color:#fff;"><span>China Robotics <b style="color:#fbbf24;">Insider</b></span></a><p>Independent coverage of China's robotics industry.</p></div>
+    <div><h4>Explore</h4><a href="history.html">History</a><a href="people.html">People</a><a href="companies.html">Companies</a><a href="products.html">Products</a></div>
+    <div><h4>Insights</h4><a href="articles.html">All Articles</a><a href="humanoid-robot-race.html">Humanoid Race</a><a href="china-humanoid-supply-chain.html">Supply Chain</a></div>
+    <div><h4>Site</h4><a href="about.html">About</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="contact.html">Contact</a><a href="sitemap.xml">Sitemap</a></div>
+  </div><div class="footer-bottom"><span>© <span id="year">2026</span> China Robotics Insider.</span><span>Independent editorial · Not affiliated with any company listed.</span></div></div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
