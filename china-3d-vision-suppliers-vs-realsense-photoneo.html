@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>China's 3D Robot Vision Suppliers vs Intel RealSense &amp; Photoneo: Orbbec, Mech-Mind and the Camera Inside Every Humanoid</title>
+  <meta name="description" content="How Orbbec (>70% China service-robot 3D vision share, inside AgiBot/Unitree/UBTech) and Mech-Mind (29,000+ industrial deployments, HKEX-listed) compare with Intel RealSense and Photoneo on structured-light 3D cameras for robots.">
+  <meta name="keywords" content="China 3D vision suppliers, Orbbec vs RealSense, Mech-Mind vs Photoneo, structured light camera robot, humanoid robot depth camera, RGB-D industrial, Gemini 338, Mech-Eye">
+  <link rel="canonical" href="https://www.robotichina.com/china-3d-vision-suppliers-vs-realsense-photoneo.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="China Robotics Insider">
+  <meta property="og:title" content="China's 3D Robot Vision Suppliers vs RealSense &amp; Photoneo">
+  <meta property="og:description" content="Orbbec and Mech-Mind now own the eyes of Chinese robotics — here is how they compare.">
+  <meta property="og:url" content="https://www.robotichina.com/china-3d-vision-suppliers-vs-realsense-photoneo.html">
+  <meta property="og:image" content="https://www.robotichina.com/assets/og-default.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "China's 3D Robot Vision Suppliers vs Intel RealSense & Photoneo: Orbbec, Mech-Mind and the Camera Inside Every Humanoid",
+    "description": "How Orbbec and Mech-Mind compare with Intel RealSense and Photoneo on structured-light 3D cameras for robots.",
+    "inLanguage": "en",
+    "datePublished": "2026-09-21",
+    "dateModified": "2026-09-21",
+    "author": {"@type": "Organization", "name": "China Robotics Insider"},
+    "publisher": {"@type": "Organization", "name": "China Robotics Insider"},
+    "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.robotichina.com/china-3d-vision-suppliers-vs-realsense-photoneo.html"}
+  }
+  </script>
+  <script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Who makes the 3D cameras inside Chinese humanoid robots?", "acceptedAnswer": {"@type": "Answer", "text": "Orbbec (奥比中光) is the dominant supplier: its Gemini-series depth cameras are a standard perception option across AgiBot, Unitree, UBTech and Leju, and it holds over 70% of China's service-robot 3D vision market."}}, {"@type": "Question", "name": "Is Orbbec an alternative to Intel RealSense?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Orbbec's Gemini RGB-D and structured-light cameras directly target the RealSense form factor and SDK, with broad cross-platform support (NVIDIA Isaac/Jetson, Windows, macOS, ROS), while Intel has repeatedly scaled RealSense back, creating an opening Orbbec has filled."}}, {"@type": "Question", "name": "How does Mech-Mind compare with Photoneo?", "acceptedAnswer": {"@type": "Answer", "text": "Both sell high-accuracy structured-light 3D cameras plus robot-guidance software for industrial bin picking and inspection. Photoneo (Slovakia) leads on patented parallel structured light for dynamic scenes; Mech-Mind competes on a full eye-brain-hand stack, price and 29,000+ deployments including 100+ Fortune 500 customers."}}, {"@type": "Question", "name": "What 3D vision technology do humanoid robots use?", "acceptedAnswer": {"@type": "Answer", "text": "Most humanoids combine active structured-light or active-stereo RGB-D cameras for close-range perception (navigation, manipulation, obstacle avoidance) with optional LiDAR for mapping, plus an IMU. Industrial arms instead use high-precision structured-light scanners mounted fixed or on the wrist."}}]}
+</script>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="shortcut icon" href="assets/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="China Robotics Insider home">
+      <svg class="logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="8" y="16" width="24" height="15" rx="4" fill="#2563eb"/>
+        <rect x="5" y="12" width="4" height="9" rx="2" fill="#f59e0b"/>
+        <rect x="31" y="12" width="4" height="9" rx="2" fill="#f59e0b"/>
+        <rect x="13" y="20" width="4" height="4" rx="1" fill="#fff"/>
+        <rect x="23" y="20" width="4" height="4" rx="1" fill="#fff"/>
+        <rect x="18" y="27" width="4" height="4" rx="1" fill="#fff"/>
+        <circle cx="9" cy="30" r="2.4" fill="#0d9488"/>
+        <circle cx="31" cy="30" r="2.4" fill="#0d9488"/>
+      </svg>
+      <span>China Robotics <b>Insider</b></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="companies.html">Companies</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="articles.html" class="active">Insights</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="database/index.html">Database</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="nav-search">
+          <form class="search-form" action="search.html" method="get" role="search">
+            <input type="search" name="q" placeholder="Search…" aria-label="Search this site">
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="container ph-inner">
+      <span class="kicker">Insights · Perception &amp; Sensors</span>
+      <h1>China's 3D Robot Vision Suppliers vs Intel RealSense &amp; Photoneo: The Camera Inside Every Humanoid</h1>
+      <p>While the actuator debate grabs headlines, a quieter land grab is settled: Chinese companies now make the eyes of most Chinese robots. Orbbec owns the service-robot and humanoid depth camera; Mech-Mind owns industrial eye-brain-hand cells. Here is how they stack up against Intel RealSense and Slovakia's Photoneo.</p>
+    <div class="article-meta">
+      <div class="byline">
+        <span class="author">By <a href="about.html" style="color:var(--ink-800);text-decoration:underline;text-underline-offset:2px;">China Robotics Insider</a></span>
+        <span class="sep">·</span>
+        <span class="date">Sep 21, 2026</span>
+          <span class="sep">·</span>
+          <span class="last-upd">Last updated: Sep 21, 2026</span>
+        <span class="sep">·</span>
+        <span class="read">9 min read</span>
+      </div>
+      <div class="interact-row">
+        <button class="interact-btn like-btn" data-slug="china-3d-vision" type="button" aria-label="Like this article"><span class="ic">▲</span> Like <span class="like-count">0</span></button>
+        <a class="interact-btn" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.robotichina.com%2Fchina-3d-vision-suppliers-vs-realsense-photoneo.html&text=China%203D%20Vision%20Suppliers" target="_blank" rel="noopener">Share on X</a>
+        <a class="interact-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.robotichina.com%2Fchina-3d-vision-suppliers-vs-realsense-photoneo.html" target="_blank" rel="noopener">LinkedIn</a>
+        <button class="interact-btn copy-btn" data-url="https://www.robotichina.com/china-3d-vision-suppliers-vs-realsense-photoneo.html" type="button">Copy link</button>
+      </div>
+    </div>
+    </div>
+        <figure class="p-figure">
+        <img src="assets/og-default.jpg" alt="3D structured light depth cameras used for robot perception" loading="lazy">
+        <figcaption>Structured-light and active-stereo RGB-D cameras give robots close-range depth for navigation and manipulation</figcaption>
+      </figure>
+</section>
+
+  <section class="section">
+    <div class="container">
+      <div class="prose" style="max-width:860px;">
+
+<div class="blockquote answer-nugget"><strong style="color:var(--blue-600);text-transform:uppercase;font-size:12px;letter-spacing:.08em;">The answer · TL;DR</strong><br>There are two distinct 3D-vision markets. In <strong>embedded RGB-D for mobile and humanoid robots</strong>, <strong>Orbbec (奥比中光)</strong> holds over <strong>70% of China's service-robot 3D vision market</strong> and its Gemini cameras are a standard option across AgiBot, Unitree, UBTech and Leju — filling the vacuum Intel created by repeatedly scaling RealSense back. In <strong>industrial robot guidance</strong>, <strong>Mech-Mind (梅卡曼德)</strong>, which listed on the HKEX in 2026 as the "first embodied eye-brain-hand stock," has deployed <strong>29,000+ systems</strong> for 100+ Fortune 500 customers and competes directly with Slovakia's <strong>Photoneo</strong>, the structured-light precision leader. Chinese vendors win on price, software localization and supply; Western leaders still set the high-accuracy benchmark.</div>
+
+<h2>Two markets, two Chinese leaders</h2>
+<p>"3D vision for robots" covers two very different jobs. A <strong>wheeled or humanoid robot</strong> needs small, low-power RGB-D cameras for real-time navigation, obstacle avoidance and close manipulation — the role Intel RealSense popularized. A <strong>factory robot arm</strong> needs a high-accuracy, often fixed structured-light scanner plus grasp-planning software for bin picking, loading and inspection — the role Photoneo and Cognex occupy. China produced a category leader for each: <strong>Orbbec</strong> in embedded depth, <strong>Mech-Mind</strong> in industrial guidance.</p>
+
+<h2>Orbbec — the de facto Chinese RealSense</h2>
+<p>Orbbec (奥比中光, SSE STAR: 688322, pursuing a Hong Kong listing in 2026) is Asia's first mass producer of consumer-grade 3D sensor modules with its own depth-ASIP chips and close to 2,000 patents. The numbers explain its position: <strong>over 70% share of China's service-robot 3D vision market</strong>, more than 5,000 global customers, and its <strong>Gemini-series depth cameras are a standard perception option across the world's top-shipping humanoid makers — AgiBot, Unitree, UBTech and Leju</strong>. In Q1 2026 its domestic robot revenue tripled year-on-year and humanoid orders doubled sequentially, with lead times cut from ~40 to ~20 days.</p>
+<p>The product line spans the Gemini 335/338/435 family (active structured light and active stereo, GigE/PoE industrial variants), a customizable <strong>3D DLP camera reaching ~0.07 mm VDI/VDE accuracy and 0.05 mm Z-repeatability at 0.5 m</strong>, and robot-free data-collection hardware for physical-AI training. It is deeply integrated into <strong>NVIDIA Isaac/Jetson</strong> (the Gemini 435Le runs on Jetson AGX Orin), Windows, macOS, ROS and AMD ROCm — a deliberate RealSense-compatible ecosystem play, backed by dual manufacturing in China and Vietnam.</p>
+
+<h2>Mech-Mind — the industrial eye-brain-hand stack</h2>
+<p>Mech-Mind (梅卡曼德), founded in Beijing by Shao Tianlan and listed on the HKEX in September 2026 as the "first embodied-intelligence eye-brain-hand stock," sells the <strong>Mech-Eye</strong> structured-light 3D camera together with Mech-Vision, Mech-DLK and Mech-Viz software and complete robot cells for bin picking, machine tending, depalletizing and inspection. By its IPO filing it had deployed <strong>over 29,000 systems</strong> and served <strong>100+ Fortune 500 companies</strong> — CATL, BYD, Foxconn, Midea, Mitsubishi Heavy Industries, FAW and Tsingtao among them — across automotive, logistics, new energy, appliances and semiconductors. It raised over RMB 2B across 11 rounds (IDG, Sequoia, Meituan, Coatue, Intel Capital) before listing, and 78–86% of recent revenue came from existing customers — a sign of sticky, land-and-expand deployments.</p>
+
+<h2>Head-to-head: Orbbec / Mech-Mind vs RealSense / Photoneo</h2>
+<table class="spec-table">
+  <tr><th>Dimension</th><th>Orbbec (CN)</th><th>Intel RealSense (US)</th><th>Mech-Mind (CN)</th><th>Photoneo (SK)</th></tr>
+  <tr><td>Primary use</td><td>Embedded RGB-D, mobile/humanoid robots</td><td>Embedded RGB-D, prototyping</td><td>Industrial robot guidance cells</td><td>High-precision industrial 3D</td></tr>
+  <tr><td>Technology</td><td>Structured light / active stereo, own depth chip</td><td>Active stereo / stereo + IR</td><td>Structured-light Mech-Eye + full software stack</td><td>Patented parallel structured light (MotionCam-3D)</td></tr>
+  <tr><td>Signature spec</td><td>Gemini family; DLP ~0.07 mm at 0.5 m</td><td>D400/D455 class, developer ecosystem</td><td>29,000+ deployments; 100+ Fortune 500</td><td>Dynamic-scene capture, sunlight-robust PhoXi</td></tr>
+  <tr><td>Business status</td><td>Public (SSE), HK listing pursued; scaling</td><td>Repeatedly restructured/scaled back</td><td>HKEX-listed Sep 2026</td><td>Private, premium niche leader</td></tr>
+  <tr><td>Edge</td><td>Price, supply, humanoid design-ins, chip</td><td>Brand, SDK familiarity in the West</td><td>Complete eye-brain-hand, local service, cost</td><td>Accuracy &amp; dynamic-scene technology</td></tr>
+</table>
+
+<h2>Why the gap opened</h2>
+<ul>
+  <li><strong>The RealSense vacuum.</strong> Intel repeatedly reorganized and scaled back its RealSense group, leaving OEMs nervous about roadmap continuity — an opening Orbbec explicitly filled with pin-compatible, SDK-familiar hardware and aggressive platform integration.</li>
+  <li><strong>Design-in density.</strong> When four of the world's highest-volume humanoid programs (AgiBot, Unitree, UBTech, Leju) all qualify a Chinese camera, the component becomes a de facto standard through volume and field data, not just spec sheets.</li>
+  <li><strong>Software, not just sensors.</strong> Mech-Mind sells outcomes — a working bin-picking cell — which bundles the camera with vision software, deep-learning tools and robot motion planning. Photoneo sells best-in-class sensors and software too, but at European price points and with a narrower deployment base in Asia.</li>
+  <li><strong>Cost and local service.</strong> As across the actuator stack, Chinese 3D vision typically lands at 30–60% below Western equivalents with local integration support — decisive for the thousands of Chinese factories automating on thin margins.</li>
+</ul>
+
+<h2>Where Western vendors still lead</h2>
+<p>Photoneo's <strong>parallel structured light</strong> remains the benchmark for high-quality 3D capture of <em>moving</em> scenes (where sequential structured light blurs), and its PhoXi line is rated for direct sunlight. Cognex and Keyence dominate the highest-end inspection and Western automotive accounts. The honest split: <strong>Chinese vendors lead on embedded depth, price, software breadth and deployment scale in Asia; European/American vendors still define the precision frontier and hold entrenched certification positions in Western automotive and aerospace.</strong></p>
+
+<h2>What to watch</h2>
+<ul>
+  <li><strong>Orbbec's humanoid ramp</strong> — whether Gemini design-ins convert into multi-year per-robot content as AgiBot/Unitree scale to tens of thousands of units.</li>
+  <li><strong>Mech-Mind post-IPO</strong> — whether the eye-brain-hand model expands from factories into logistics and humanoid manipulation data.</li>
+  <li><strong>Vision-language-action convergence</strong> — depth cameras are becoming data-collection front ends for VLA model training (Orbbec's robot-free kits), tying perception vendors directly to the embodied-AI stack.</li>
+</ul>
+
+<h2 id="faq">Frequently asked questions</h2>
+<h3>Who makes the 3D cameras inside Chinese humanoid robots?</h3>
+<p>Orbbec is the dominant supplier: its Gemini-series depth cameras are a standard perception option across AgiBot, Unitree, UBTech and Leju, and it holds over 70% of China's service-robot 3D vision market.</p>
+<h3>Is Orbbec an alternative to Intel RealSense?</h3>
+<p>Yes. Orbbec's Gemini RGB-D and structured-light cameras directly target the RealSense form factor and SDK, with broad cross-platform support (NVIDIA Isaac/Jetson, Windows, macOS, ROS), while Intel has repeatedly scaled RealSense back.</p>
+<h3>How does Mech-Mind compare with Photoneo?</h3>
+<p>Both sell high-accuracy structured-light 3D cameras plus robot-guidance software. Photoneo leads on patented parallel structured light for dynamic scenes; Mech-Mind competes on a full eye-brain-hand stack, price and 29,000+ deployments including 100+ Fortune 500 customers.</p>
+<h3>What 3D vision technology do humanoid robots use?</h3>
+<p>Most combine active structured-light or active-stereo RGB-D cameras for close-range perception with optional LiDAR for mapping and an IMU; industrial arms use fixed or wrist-mounted high-precision structured-light scanners.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Go deeper</span>
+        <h2>Related reading — perception &amp; the BOM</h2>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <h3><a href="china-lidar-suppliers.html">China's LiDAR Suppliers</a></h3>
+          <p>Hesai and RoboSense vs Velodyne — the mapping layer above the cameras.</p>
+        </article>
+        <article class="card">
+          <h3><a href="china-force-tactile-sensor-suppliers.html">China's Force &amp; Tactile Sensor Suppliers</a></h3>
+          <p>Kunwei, Paxini and the sensing inside hands and ankles.</p>
+        </article>
+        <article class="card">
+          <h3><a href="humanoid-robot-bom-cost-breakdown.html">Humanoid Robot BOM Cost Breakdown</a></h3>
+          <p>Where sensors and cameras sit in the $20,000 bill of materials.</p>
+        </article>
+        <article class="card">
+          <h3><a href="hesai-vs-velodyne.html">Hesai vs Velodyne</a></h3>
+          <p>A head-to-head in depth-sensing hardware.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Company websites</span>
+        <h2>Official links</h2>
+      </div>
+      <ul class="prose" style="max-width:860px;">
+        <li>Orbbec (奥比中光): <a href="https://www.orbbec.com" rel="nofollow noopener" target="_blank">orbbec.com</a></li>
+        <li>Mech-Mind Robotics (梅卡曼德): <a href="https://www.mech-mind.com" rel="nofollow noopener" target="_blank">mech-mind.com</a></li>
+        <li>Photoneo: <a href="https://www.photoneo.com" rel="nofollow noopener" target="_blank">photoneo.com</a></li>
+        <li>Intel RealSense: <a href="https://www.intelrealsense.com" rel="nofollow noopener" target="_blank">intelrealsense.com</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band">
+        <div>
+          <h3>Follow the supply chain</h3>
+          <p>115+ company profiles, product pages and supplier teardowns for China's robotics ecosystem.</p>
+        </div>
+        <a class="btn btn-primary" href="database/index.html">Browse the database</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a class="brand" href="index.html" style="color:#fff;">
+          <span>China Robotics <b style="color:#fbbf24;">Insider</b></span>
+        </a>
+        <p>An independent guide to China's robotics industry — founders, companies, history and products.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="history.html">Development History</a>
+        <a href="people.html">Founders &amp; Key Figures</a>
+        <a href="companies.html">Companies &amp; Startups</a>
+        <a href="products.html">Cutting-edge Products</a>
+      </div>
+      <div>
+        <h4>Insights</h4>
+        <a href="articles.html">All Articles</a>
+        <a href="humanoid-robot-race.html">The Humanoid Robot Race</a>
+        <a href="china-humanoid-supply-chain.html">Humanoid Supply Chain</a>
+        <a href="robot-startup-funding.html">Startup Funding</a>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="contact.html">Contact</a>
+        <a href="sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> China Robotics Insider. All rights reserved.</span>
+      <span>Independent editorial coverage · Not affiliated with any company listed.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
