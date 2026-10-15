@@ -133,6 +133,39 @@
         <p><strong>Sanhua Intelligent Controls</strong> (002050), the HVAC and EV thermal-components giant, crossed into humanoid actuators so successfully that in <strong>October 2025 Tesla placed a reported $685M actuator order</strong> — sending Sanhua's stock to the daily limit and igniting the whole A-share robot chain. As one of the core joint-module suppliers for Optimus, Sanhua transfers its mechatronics and thermal-management scale from cars to robot joints, backed by Morgan Stanley's Humanoid 100 listing.</p>
         <h3>Reducer leaders go modular</h3>
         <p><strong>Leaderdrive</strong> (绿的谐波), China's harmonic-drive champion, now sells the <strong>KGU series integrated modules</strong> (around $900-1,250) that pair its reducers with motors and encoders. <strong>Zhongda Leader</strong> (中大力德) sells the <strong>eRob series</strong> plug-and-play joint modules (~$700-1,050) with EtherCAT/CANopen out of the box — the value-priced lane for startups that want a complete joint rather than a bare reducer. Add Inovance, Kinco and Leadshine in frameless motors, and the full actuator stack — motor, reducer, screw, bearing, driver — is now made in China end to end.</p>
+
+        <h2>The full Chinese actuator lineup</h2>
+        <p>Beyond the four anchor names above, the actuator field has deepened into a full supply chain. The table below groups the makers by what they actually ship today:</p>
+        <table class="spec-table">
+          <tr><th>Company</th><th>What it ships</th><th>2026 signal</th></tr>
+          <tr><td>Tuopu Group (拓普, 601689)</td><td>Linear + rotary actuator assemblies, skin, sensors</td><td>Tesla Optimus, AgiBot, Xiaomi; Mexico plant 300k sets target Q2 2026</td></tr>
+          <tr><td>Sanhua Intelligent (三花智控, 002050)</td><td>Joint modules, thermal management</td><td>Reported $685M Optimus order Oct 2025</td></tr>
+          <tr><td>Leaderdrive (绿的谐波, 688017)</td><td>KGU integrated harmonic modules</td><td>~$900–1,250 per module; reducer heritage</td></tr>
+          <tr><td>Zhongda Leader (中大力德, 002896)</td><td>eRob plug-and-play joints</td><td>EtherCAT/CANopen; ~$700–1,050</td></tr>
+          <tr><td>Inovance (汇川技术, 300124)</td><td>Frameless torque motors, motion controllers</td><td>Largest domestic motion-control vendor; full control stack</td></tr>
+          <tr><td>Kinco (步科股份, 688160)</td><td>Frameless motors, integrated joints</td><td>Standard vendor for smaller humanoid OEMs</td></tr>
+          <tr><td>Leadshine (雷赛智能, 002979)</td><td>Stepper/servo + linear actuator modules</td><td>Roller-screw + motor integrated linear modules</td></tr>
+          <tr><td>Estun (埃斯顿, 002747)</td><td>Industrial robot arms → humanoid joints</td><td>Full control + servo stack; clean-room line</td></tr>
+          <tr><td>Step Electric (埃夫特, 688165)</td><td>Servo motors, robot joints</td><td>Wuhu-based; automotive and general industry</td></tr>
+          <tr><td>Laifual (来福谐波)</td><td>Harmonic reducers, integrated joints</td><td>#2 domestic harmonic supplier after Leaderdrive</td></tr>
+          <tr><td>Hanyu / Tongchuan (汉宇/同川)</td><td>Harmonic reducers in XPeng IRON waist</td><td>New entrant moving into named humanoid programs</td></tr>
+          <tr><td>Nantong Jianghua (南通振康)</td><td>RV reducers, heavy joints</td><td>RV specialist; supply chain for hip/knee joints</td></tr>
+        </table>
+
+        <h2>Joint-by-joint: what torque goes where</h2>
+        <p>Actuator specs scale with the joint. When comparing suppliers, the relevant question is not "how big is your actuator" but "which joint is it for." Typical 2026 production ranges look like this:</p>
+        <table class="spec-table">
+          <tr><th>Joint</th><th>Type</th><th>Peak torque</th><th>Typical actuator</th></tr>
+          <tr><td>Fingers (each)</td><td>Linear / micro rotary</td><td>0.5–3 N·m</td><td>Coreless motor + micro screw or linkage (ZHAOWEI, DINGS)</td></tr>
+          <tr><td>Wrist</td><td>Rotary</td><td>5–15 N·m</td><td>Small harmonic + frameless motor module</td></tr>
+          <tr><td>Elbow</td><td>Rotary</td><td>20–50 N·m</td><td>Mid harmonic module (Leaderdrive KGU, Zhongda eRob)</td></tr>
+          <tr><td>Shoulder</td><td>Rotary</td><td>80–200 N·m</td><td>Large harmonic or planetary + high-torque motor</td></tr>
+          <tr><td>Hip</td><td>Rotary + linear hybrid</td><td>200–530 N·m</td><td>RV or large harmonic + roller screw linear module (Tuopu, Sanhua)</td></tr>
+          <tr><td>Knee</td><td>Linear</td><td>300–530 N·m push</td><td>Planetary roller screw actuator (Tuopu, Hengli, Beite)</td></tr>
+          <tr><td>Ankle</td><td>Rotary + F/T sensor</td><td>30–80 N·m</td><td>Compact rotary module + six-axis force/torque sensor</td></tr>
+        </table>
+        <p>The 530 N·m ceiling in hip and knee joints is the number quoted across Morgan Stanley, Goldman Sachs and Chinese broker BOM models — and it is the spec that separates a demo-stage humanoid from one that can squat, carry and walk on uneven ground. Chinese suppliers now hit that spec in production; Western suppliers still hit it but at roughly double the price.</p>
+
         <h2>The price moat</h2>
         <p>2026 humanoid actuator selection guides show the cost gap plainly: <strong>planetary/RV joints at RMB 4,000-8,000 domestic versus RMB 8,000-18,000 imported; linear actuators at RMB 3,500-7,000 domestic versus RMB 7,000-15,000 imported</strong>. At roughly half the price with comparable specs, Chinese actuators reset the economics of humanoids — the single biggest reason the cost curve of the whole robot is falling. That is also why Western coverage increasingly frames the actuator as China's structural moat: precision mechanical engineering, not AI, is the expensive part.</p>
         <h2>What to watch</h2>
@@ -156,6 +189,10 @@
 <p>Tuopu Group (601689) is the clearest winner: it supplies linear and rotary actuator assemblies to Tesla Optimus, AgiBot and Xiaomi, with Tesla alone accounting for 35-40% of its revenue, and its Mexico plant targets 300,000 sets by Q2 2026. Sanhua Intelligent Controls is the other anchor, with a reported $685M Optimus actuator order placed in October 2025.</p>
 <h3>What is the difference between rotary and linear actuators?</h3>
 <p>Rotary actuators drive rotating joints — shoulders, elbows, waist, hips — using a frameless torque motor plus a harmonic or planetary reducer. Linear actuators drive push-pull joints — knees, some hips, some elbows — converting motor rotation into linear force via a planetary roller screw. A typical humanoid has roughly 16 rotary and 14 linear actuators.</p>
+<h3>What is the peak torque of a humanoid hip or knee actuator?</h3>
+<p>High-power humanoid hip and knee joints now exceed 530 N·m at the output, the spec quoted across Morgan Stanley, Goldman Sachs and Chinese broker BOM models. It is the threshold that separates a demo-stage humanoid from one that can squat, carry and walk on uneven ground — and the spec Chinese suppliers now hit in production at roughly half the price of Western equivalents.</p>
+<h3>Which Chinese actuator supplier works with Tesla Optimus?</h3>
+<p>Tesla Optimus uses two Chinese anchors: Tuopu Group supplies linear and rotary actuator assemblies (Tesla is 35–40% of Tuopu's revenue), and Sanhua Intelligent Controls received a reported $685M actuator order from Tesla in October 2025. Tuopu's Mexico plant targets 300,000 sets of annual capacity by Q2 2026.</p>
       </div>
     </div>
   </section>
