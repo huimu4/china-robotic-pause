@@ -131,6 +131,34 @@
         <p><strong>Seeed Studio</strong> (矽递科技), a veteran Shenzhen open-hardware firm, is the contract manufacturer for the entire Microduck — and previously built Hugging Face's Reachy Mini. Seeed's edge is agile manufacturing: it can take an open-hardware design from prototype to mass production in weeks, the exact capability a fast-moving AI company needs. For China's robotics ecosystem, this is the pattern repeating: an overseas brand with a hot product, a Shenzhen maker with the manufacturing muscle to ship it to the world.</p>
         <h3>Rockchip — the duck's Chinese brain</h3>
         <p>Microduck's on-device compute is a <strong>Rockchip RK3566</strong>, a quad-core ARM processor from Shanghai-listed <strong>Rockchip</strong> (603893.SH). The chip runs the duck's perception and inference on board; Radxa, another Shenzhen company, supplies the RK3566 carrier board. Chinese observers read this as the definitive case of "Chinese manufacturing riding the embodied-AI wave": a globally hyped robot with a Chinese chip, a Chinese board and a Chinese assembly line — sold by a French-American AI company.</p>
+
+        <h2>Microduck specs at a glance</h2>
+        <table class="spec-table">
+          <tr><th>Spec</th><th>Value</th></tr>
+          <tr><td>Height / weight</td><td>25 cm / 800 g</td></tr>
+          <tr><td>Price</td><td>$399 (~RMB 2,681)</td></tr>
+          <tr><td>On-device compute</td><td>Rockchip RK3566, quad-core ARM</td></tr>
+          <tr><td>Motion</td><td>15 × ROBOTIS Dynamixel XL330 servomotors</td></tr>
+          <tr><td>Sensing</td><td>Eye camera, microphone, speaker, 2× IMU, small lidar</td></tr>
+          <tr><td>Connectivity</td><td>Wi-Fi, Bluetooth</td></tr>
+          <tr><td>Grip capacity (beak)</td><td>Up to 800 g</td></tr>
+          <tr><td>Software</td><td>Fully open-source SDK, MuJoCo simulation, LeRobot stack</td></tr>
+          <tr><td>Manufacturer</td><td>Seeed Studio (Shenzhen)</td></tr>
+          <tr><td>Preorders (first 24 h)</td><td>$2.6M ≈ 6,500 units, peak 1 duck / 4 sec</td></tr>
+        </table>
+
+        <h2>How Microduck compares to other open-source robots</h2>
+        <table class="spec-table">
+          <tr><th>Robot</th><th>Price</th><th>Type</th><th>What it is for</th></tr>
+          <tr><td><b>Microduck</b> (Hugging Face / Pollen)</td><td>$399</td><td>Biped duck, 15 DOF</td><td>RL-from-simulation for developers; biped locomotion research</td></tr>
+          <tr><td>Reachy Mini (Pollen)</td><td>$499</td><td>Desktop arm</td><td>The predecessor — one arm, manipulation, not locomotion</td></tr>
+          <tr><td>Unitree G1</td><td>~$16,000</td><td>Full humanoid, 23 DOF</td><td>Research humanoid at industrial scale, 20–30× the price</td></tr>
+          <tr><td>Unitree Go2</td><td>$1,600–2,800</td><td>Quadruped</td><td>Open quadruped for research and education</td></tr>
+          <tr><td>Xiaomi CyberDog 2</td><td>~$2,500</td><td>Quadruped</td><td>Consumer quadruped, Xiaomi ecosystem</td></tr>
+          <tr><td>ArmUno / Uno-based arms</td><td>$100–400</td><td>DIY arm</td><td>Entry-level Arduino/ROS education</td></tr>
+        </table>
+        <p>The comparison shows where Microduck sits: it is not a humanoid and not a competitor to Unitree G1. It is the first <strong>sub-$500 open-source biped</strong> — the price point that turns bipedal RL research from a lab budget line into a hobbyist purchase. That is why the preorder number matters: it is the first time the "affordable physical AI" label has actually shipped at consumer pricing.</p>
+
         <h2>Why the China connection matters</h2>
         <ul>
           <li><strong>Price is a supply-chain achievement.</strong> $399 for a 15-motor, sensor-rich biped is only possible at Chinese cost curves — a Taobao parts list for self-building the duck totals about RMB 2,119, with the 14 servos alone at RMB 1,316.</li>
@@ -153,6 +181,10 @@
 <p>A Taobao parts list for self-building the duck totals about RMB 2,119 (~$300), with the 14 servos alone at RMB 1,316 — landing close to the $399 retail price once assembly and the main board are added. The retail price is itself a supply-chain achievement only possible at Chinese cost curves.</p>
 <h3>Who makes Microduck and who owns Pollen Robotics?</h3>
 <p>Microduck is designed by Pollen Robotics, the French startup Hugging Face acquired in April 2025, and manufactured in Shenzhen by Seeed Studio — the same contract manufacturer behind Hugging Face's Reachy Mini. Hugging Face itself faces a pending $12.9B acquisition by Nvidia, which hovers in the background of its affordable-open-source-robots push.</p>
+<h3>When will Microduck orders ship?</h3>
+<p>Hugging Face's checkout page puts new orders at a 4–6 month shipping window after the first preorder wave. The first batch (~6,500 units in the first 24 hours) is being built by Seeed Studio in Shenzhen. The 20,000-unit target before Christmas 2026 depends on Seeed scaling production through Q4.</p>
+<h3>How is Microduck different from Reachy Mini?</h3>
+<p>Reachy Mini ($499) is Pollen Robotics' earlier desktop arm — a single manipulation arm on a stand, for tabletop pick-and-place research. Microduck ($399) is a biped with 15 servos built for locomotion: it walks, gets up after falling, roller-skates and performs gymnastics. Both are open-source and made by Seeed Studio in Shenzhen; Microduck is the bipedal, locomotion-focused follow-on.</p>
       </div>
     </div>
   </section>
