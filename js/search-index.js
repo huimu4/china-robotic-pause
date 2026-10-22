@@ -1,5 +1,6 @@
 ﻿/* China Robotics Insider - static search index */
 window.SEARCH_INDEX = [
+  { "u": "unitree-q3-earnings-preview.html", "t": "Unitree Q3 2026 Earnings Preview: Five Things to Watch in Its First Report Since the IPO", "cat": "Insights", "k": "unitree q3 earnings unitree 688836 stock humanoid gross margin g1+ ipo jpmorgan nomura analyst target", "d": "Unitree reports Q3 on October 29 — first earnings since the IPO. H1 revenue ¥1.15B (+48.5%), recurring profit −19%, gross margin 56%; scenarios, analyst targets and five things to watch." },
   { "u": "china-planetary-roller-screws-vs-gsa-rollvis.html", "t": "Chinese Planetary Roller Screws vs GSA & Rollvis: The 80% Import Gap Inside Every Humanoid Leg", "cat": "Insights", "k": "china planetary roller screw vs GSA rollvis optimus linear actuator beite shuanglin nous robot 1.5mm screw localization 2026", "d": "Swiss GSA and Rollvis hold over half of the world's planetary roller screws. China still imports 80-85% of them — but prices fell from ¥10,000 to ¥2,000 and Chinese makers are building 100,000-unit lines." },
 
   { "u": "index.html", "t": "Home — China Robotics Insider", "cat": "Home", "k": "china robotics humanoid industry overview guide english", "d": "An independent English-language guide to China's robotics industry — founders, companies, history and products." },
