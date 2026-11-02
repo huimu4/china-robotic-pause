@@ -11,6 +11,7 @@
 - [Galbot — Wheeled Humanoid & VLA Models](https://www.robotichina.com/database/company-galbot.html): Wheeled humanoid G1 paired with Vision-Language-Action foundation models.
 - [Deep Robotics — Quadruped & Biped](https://www.robotichina.com/database/company-deep-robotics.html): Hangzhou quadruped pioneer expanding into bipedal robots.
 - [ESTUN — Industrial Robots & Servo](https://www.robotichina.com/database/company-estun.html): China's largest domestic industrial-robot OEM.
+- [KUKA — Midea's Fully Owned Industrial Robot Subsidiary](https://www.robotichina.com/database/company-kuka.html): German robot icon, 100%-owned by Midea since the Nov 2022 squeeze-out (delisted); Shunde (Foshan) manufacturing; H1 2026: 18,000+ units shipped in China (+19%), 9.7% share (No.2), >50% of 300kg+ heavy-load segment; China >30% of KUKA revenue, first >EUR 1B in 2025; reports inside Midea Robotics & Automation (H1 2026 RMB 16.62B, +10.27%).
 - [Inovance — Servo & Automation](https://www.robotichina.com/database/company-inovance.html): China's #1 servo supplier powering many Chinese robots.
 - [SIASUN — State Robotics Flagship](https://www.robotichina.com/database/company-siasun.html): State-backed robotics flagship born from CAS Shenyang Institute.
 - [Geek+ — Warehouse AMR Leader](https://www.robotichina.com/database/company-geekplus.html): Global AMR & warehouse robot leader.
