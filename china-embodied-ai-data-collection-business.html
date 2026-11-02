@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>China's Embodied-AI Data Collection Business: ¥500/Hour Teleop Data, 100+ Training Centers, and a "Buy the Robot, Buy Back the Data" Debate</title>
+  <meta name="description" content="China has built 100+ embodied-AI data collection centers turning human teleoperation into robot training data. The economics: ¥500-1,000 per hour for gold-standard teleop data, a 90% data gap, and a contested 'state buys robots, companies buy back data' model.">
+  <meta name="keywords" content="embodied AI data collection China, 具身智能 数据采集, humanoid robot training data, teleoperation data, data collection centers 数采中心, Zhiyuan data factory, UBTECH data center, China embodied data market">
+  <link rel="canonical" href="https://www.robotichina.com/china-embodied-ai-data-collection-business.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="China Robotics Insider">
+  <meta property="og:title" content="China's Embodied-AI Data Collection Business: ¥500/Hour Teleop Data and the 90% Gap">
+  <meta property="og:description" content="100+ data collection centers, four data paths, seven business models — and a heated debate over whether 'state buys robots, company buys back data' is a real industry or a revenue illusion.">
+  <meta property="og:url" content="https://www.robotichina.com/china-embodied-ai-data-collection-business.html">
+  <meta property="og:image" content="https://www.robotichina.com/assets/products/paxini.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="css/style.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M63KB9ZNFK"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-M63KB9ZNFK');</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5339038392744176" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "China's Embodied-AI Data Collection Business: ¥500/Hour Teleop Data, 100+ Training Centers, and a 'Buy the Robot, Buy Back the Data' Debate",
+    "description": "China has built 100+ embodied-AI data collection centers. The economics: ¥500-1,000/hour gold-standard teleop data, a 90% data gap, and a contested 'state buys robots, companies buy back data' model.",
+    "inLanguage": "en",
+    "datePublished": "2026-11-02",
+    "dateModified": "2026-11-02",
+    "image": "https://www.robotichina.com/assets/products/paxini.webp",
+    "author": {"@type": "Organization", "name": "China Robotics Insider"},
+    "publisher": {"@type": "Organization", "name": "China Robotics Insider"},
+    "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.robotichina.com/china-embodied-ai-data-collection-business.html"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is an embodied-AI data collection center?", "acceptedAnswer": {"@type": "Answer", "text": "A data collection center (数采中心) is a facility where operators teleoperate humanoid or mobile robots — via gamepads, VR headsets or master arms — to repeatedly perform tasks such as grasping, sorting and handling in mock environments, while vision, joint angles and force-feedback data are recorded frame by frame to train embodied-AI (VLA) models. China had over 100 such centers by mid-2026."}}, {"@type": "Question", "name": "How much does embodied-AI data cost in China?", "acceptedAnswer": {"@type": "Answer", "text": "Gold-standard teleoperated real-robot data costs roughly ¥500-1,000 per hour (market quotes), falling to about ¥275 per hour of effective data at scale. Portable/no-robot collection costs ¥100-200 per hour. Synthetic simulation data costs about 1/100 of real-robot data but suffers a large sim-to-real gap."}}, {"@type": "Question", "name": "Who builds data collection centers in China?", "acceptedAnswer": {"@type": "Answer", "text": "The national 'Guodi' humanoid robot innovation center network runs 10 training grounds (Shanghai Qilin plus 9 branches). Zhiyuan (AgiBot) has 9 centers or training grounds, UBTECH, Paxini and Leju 5 each, Luming 3, and 12 more companies (JD, Galaxea, Xinghai, Realman, Lens, Zoomlion and others) one each."}}, {"@type": "Question", "name": "What is the 'buy the robot, buy back the data' controversy?", "acceptedAnswer": {"@type": "Answer", "text": "Many centers are funded by local state-owned platforms that buy robot hardware from companies, which then buy the data back — a loop some critics say inflates revenue ahead of IPOs. Mech-Mind founder Shao Tianlan publicly criticized this in September 2026; defenders say the loop is legitimate if the data is genuinely used, while investors now scrub device utilization, payment flows and customer relationships."}}, {"@type": "Question", "name": "Why is real-world robot data so scarce?", "acceptedAnswer": {"@type": "Answer", "text": "LLMs could learn from trillions of tokens of internet text, but robots need multimodal interaction data (vision, joint states, torque, touch) that was never systematically recorded. Analysts estimate a mature embodied model needs tens of millions of hours of data — roughly 90% of which is missing today; one CAICT-linked estimate says 1.1 trillion tokens would take about 21,200 robots a full year to collect."}}]}
+  </script>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="shortcut icon" href="assets/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="China Robotics Insider home">
+      <svg class="logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="8" y="16" width="24" height="15" rx="4" fill="#2563eb"/>
+        <rect x="5" y="12" width="4" height="9" rx="2" fill="#f59e0b"/>
+        <rect x="31" y="12" width="4" height="9" rx="2" fill="#f59e0b"/>
+        <rect x="13" y="20" width="4" height="4" rx="1" fill="#fff"/>
+        <rect x="23" y="20" width="4" height="4" rx="1" fill="#fff"/>
+        <rect x="18" y="27" width="4" height="4" rx="1" fill="#fff"/>
+        <circle cx="9" cy="30" r="2.4" fill="#0d9488"/>
+        <circle cx="31" cy="30" r="2.4" fill="#0d9488"/>
+      </svg>
+      <span>China Robotics <b>Insider</b></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="companies.html">Companies</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="articles.html" class="active">Insights</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="database/index.html">Database</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="nav-search">
+          <form class="search-form" action="search.html" method="get" role="search">
+            <input type="search" name="q" placeholder="Search…" aria-label="Search this site">
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="container ph-inner">
+      <span class="kicker">Industry Report · Data Infrastructure</span>
+      <h1>China's Embodied-AI Data Collection Business: ¥500/Hour Teleop Data, 100+ Training Centers, and a "Buy the Robot, Buy Back the Data" Debate</h1>
+      <p>Robots don't learn from the internet the way chatbots do — someone has to physically move them, record the motion, and sell the result. China has turned that into an industry: more than <strong>100 data collection centers</strong> by mid-2026, market rates of <strong>¥500–1,000 per hour</strong> for gold-standard teleoperated data, a <strong>~90% data gap</strong> analysts say stands between today's models and a mature embodied brain — and a heated argument over whether part of the industry's revenue is real.</p>
+    <div class="article-meta">
+      <div class="byline">
+        <span class="author">By <a href="about.html" style="color:var(--ink-800);text-decoration:underline;text-underline-offset:2px;">China Robotics Insider</a></span>
+        <span class="sep">·</span>
+        <span class="date">Nov 2, 2026</span>
+        <span class="sep">·</span>
+        <span class="read">12 min read</span>
+      </div>
+      <div class="interact-row">
+        <button class="interact-btn like-btn" data-slug="china-embodied-ai-data-collection-business" type="button" aria-label="Like this article"><span class="ic">▲</span> Like <span class="like-count">0</span></button>
+        <a class="interact-btn" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.robotichina.com%2Fchina-embodied-ai-data-collection-business.html&text=China's%20embodied-AI%20data%20collection%20business%3A%20%EF%BF%A5500%2Fhour%20teleop%20data%2C%20100%2B%20training%20centers" target="_blank" rel="noopener">Share on X</a>
+        <a class="interact-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.robotichina.com%2Fchina-embodied-ai-data-collection-business.html" target="_blank" rel="noopener">LinkedIn</a>
+        <button class="interact-btn copy-btn" data-url="https://www.robotichina.com/china-embodied-ai-data-collection-business.html" type="button">Copy link</button>
+      </div>
+    </div>
+    </div>
+    <figure class="p-figure">
+      <img src="assets/products/paxini.webp" alt="Paxini — a Chinese embodied-AI data and tactile sensing company" loading="lazy">
+      <figcaption>Data collection has become its own business in China: teleoperate a robot, record the motion, sell the dataset</figcaption>
+    </figure>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="prose" style="max-width:860px;">
+
+<div class="blockquote answer-nugget"><strong style="color:var(--blue-600);text-transform:uppercase;font-size:12px;letter-spacing:.08em;">The read · TL;DR</strong><br>Embodied AI has a data famine, and China is industrializing the cure. By June 2026 China had <strong>70+ operating training grounds</strong> (100+ built by August) spanning 18 provinces, where operators teleoperate robots through mock homes, shops, factories and labs to produce training data. The bottleneck is brutal: analysts put the gap between available quality real-world data and what a mature embodied model needs at <strong>~90%</strong>. The market is sorting into <strong>four collection paths</strong> and <strong>seven revenue models</strong>, but the fastest-growing loop — <strong>state platforms buy robot hardware, companies buy the data back</strong> — has drawn public criticism from industry figures and is now changing how investors value robot startups. This is a scene report based on CAICT and industry reports plus Chinese press (sources at bottom).</div>
+
+        <h2>Why data became the bottleneck</h2>
+        <p>Large language models got lucky: centuries of text and billions of web pages gave them roughly <strong>300 trillion tokens</strong> of ready-made training material. Robots cannot use any of it. A robot needs multimodal interaction data — task instructions, environmental observations, joint states, force and touch feedback, and execution results — recorded in sequence, in the physical world, through the machine's own body. That data was never systematically captured before, and it cannot be scraped.</p>
+        <p>The shortfall is enormous. Guojin Securities estimates a mature embodied foundation model needs <strong>tens of millions of hours</strong> of quality data (and up to hundreds of millions for general intelligence), while the industry currently has only "hundreds of thousands to one million hours" — a <strong>supply gap of about 90%</strong>. A CAICT-linked estimate puts it even more concretely: to train 1.1 trillion tokens entirely from real-robot collection would require about <strong>21,200 robots working for a full year</strong> to produce million-hour-class effective data. Zheshang Securities calculates that as of early 2026, globally available compliant real physical-interaction data is <strong>20× short</strong> of what one general embodied model needs. And the payoff is measurable: overseas research cited by CAICT found that roughly doubling pretraining data scale lifted task success rates by about 1.5×.</p>
+
+        <h2>The four data paths — and what each costs</h2>
+        <p>The <em>2026 Embodied Data Development Report</em> (China Information Industry Association, CESI Institute 5, Data Element Society) maps the industry's four main collection routes:</p>
+        <table class="spec-table">
+            <tr><th>Path</th><th>How it works</th><th>Market economics</th><th>Weakness</th></tr>
+            <tr><th>Teleoperated real robot ("gold standard")</th><td>Operator drives a real robot via master arm, VR/AR or motion capture; vision, joints and force recorded synchronously</td><td><strong>¥500–1,000/hour</strong>; falls to ~<strong>¥275/hour</strong> of effective data at scale; rig &gt;¥200k per set, robot ¥600–700k; operators produce only 2–3 effective hours/day</td><td>Heavy, expensive, ~67% of arm-limit cycle time, no 24/7 output</td></tr>
+            <tr><th>Simulation / synthetic</th><td>Programmatic generation in physics engines with randomization, demo amplification, digital twins</td><td>~<strong>1/100 the cost</strong> of real-robot data; highest capacity ceiling, lowest marginal cost</td><td>Sim-to-real gap: 89.4% sim success vs ~12% real-home generalization; leading stacks hold fit error under 5%</td></tr>
+            <tr><th>No-robot / portable collection</th><td>Humans hold or wear portable devices; trajectories mapped into robot action space</td><td><strong>¥100–200/hour</strong>; ~10× cheaper than teleop; core kit at ~¥10k</td><td>Hard post-processing: SLAM recovery, drift correction, IK re-targeting; hand precision loss</td></tr>
+            <tr><th>Internet video extraction</th><td>Convert heterogeneous data into unified formats (RLDSE) and action spaces</td><td>Cheapest; Open X-Embodiment aggregates 60 sub-datasets, 22 robot embodiments</td><td>Modal compression (often one RGB camera); weakest cross-embodiment reuse; 3–5× processing cost</td></tr>
+        </table>
+        <p class="table-note">Source: <em>Embodied Data Development Report 2026</em> via The Paper (澎湃新闻); CAICT <em>Embodied Intelligence Training Grounds Research Report (2026)</em> via Jiemian. Per-hour figures are market quotes for commissioned collection.</p>
+        <p>Industry analysts frame the structural problem as "three absences": no unified operating system ("pre-OS era"), non-standardized hardware and software (one embodiment, one dataset; cross-embodiment adaptation costs 3–5×), and unconverged technical routes (VLA vs world models vs VLM+control), producing data that is "non-standard, expensive, hard to reuse."</p>
+
+        <h2>Who is building the collection industry</h2>
+        <p>By June 2026 China had <strong>70+ operating training grounds with 46 more built or planned</strong> across 18 provincial regions (CAICT); by August, media tallies counted <strong>106 built and 84 operating</strong>. Three clusters lead: the Yangtze Delta (Zhejiang alone has 14), Beijing-Tianjin-Hebei and the Pearl River Delta. The Yangtze Delta cluster — Shanghai's Qilin training ground, Zhiyuan's data factory, Galaxea's Suzhou center, Hangzhou's humanoid pilot base and Hefei's pre-training ground — covers over <strong>70,000 m²</strong>.</p>
+        <ul>
+          <li><strong>The "Guodi" national network (10 sites):</strong> the Beijing Humanoid Robot Innovation Center leads, anchored by Shanghai's Qilin main training ground with 9 branch grounds (Beijing, Henan, Shenzhen, Hebei, Chongqing, Jilin, Yulin in Shaanxi, Changshu and Wujiang in Jiangsu). Beijing's site runs a ~6,000 m² "training school" with mock homes, supermarkets, industrial assembly, chemistry labs and eldercare wards plus a 200 m² optical motion-capture hall.</li>
+          <li><strong>Zhiyuan / AgiBot (9 sites):</strong> Pudong-Lingang, Chengdu Pidu, Wuxi, Nanchang, Jiaxing, Chongqing, Zhuhai and Guian. Its Shanghai Pudong factory runs 200+ granular scenario tasks across 3,000+ object categories and open-sourced the <strong>AgiBotWorld</strong> real-robot datasets. With the Shanghai Academy, live data flywheeling lifted long-horizon sub-step scores ~50% versus supervised fine-tuning.</li>
+          <li><strong>UBTECH (5 sites):</strong> industrial-grade centers in Liuzhou and Zigong run 500+ robots continuously collecting joint torque and tactile data (~400+ effective hours per robot per year); UBTECH says its real-embodiment dataset totals ~11 million entries, 80%+ from industrial scenarios.</li>
+          <li><strong>Paxini (5 sites), Leju (5), Luming (3):</strong> Paxini's Tianjin "super factory" spans 12,000 m² with annual output targeted in the hundreds of millions of entries, and in May 2026 it completed a compliant export of embodied data. Twelve more companies — JD, Realman, Galaxea, Xinghai, Lens Technology, Zoomlion, Qunhe, Zero-Order, Qupai, Kaipuyun, UQI and more — each run one site.</li>
+        </ul>
+        <p>Policy has been pushing alongside capital: eight ministries' "AI + Manufacturing" action plan calls for humanoid pilot bases and training grounds, MIIT and SASAC run a "real-scenario training" initiative, and the National Data Administration convened a work session on October 28 stressing "need-driven supply." China has issued 40+ local policy documents on training grounds between 2024 and June 2026, and the National Data Group was formally established on October 20.</p>
+
+        <h2>Seven business models, one dominant one</h2>
+        <table class="spec-table">
+            <tr><th>Model</th><th>How money is made</th><th>Reference market pricing</th></tr>
+            <tr><th>Custom collection services</th><td>Build scenes and operators to a client's model, embodiment and task spec; charge per valid entry, per hour, per robot hour or per project</td><td>Teleop real-robot data ¥500–1,000/hour; other real-robot data ¥200–500/hour; complex tasks priced per scenario</td></tr>
+            <tr><th>Standard dataset licensing</th><td>Produce once, license many; buyout, annual subscription or per-scenario</td><td>General/vertical datasets ¥10k–500k per set; industry-exclusive ¥500k–5M; subscriptions ¥50k–500k/year</td></tr>
+            <tr><th>Simulation &amp; synthetic data</th><td>Platform license + scenario customization + per-volume compute + real-robot validation</td><td>Sim platforms ¥100k–1M/year; scenes ¥10k–200k each; synthetic ¥0.01–1/frame or ¥0.5–20/entry</td></tr>
+            <tr><th>Annotation &amp; processing</th><td>Labor-intensive per-frame/per-trajectory charging</td><td>2D boxes ¥0.05–0.5; segmentation ¥0.5–5/frame; 3D point clouds ¥1–20/frame; trajectories ¥5–100/entry; QA +10–30%</td></tr>
+            <tr><th>Hardware + SaaS subscription</th><td>Sell/lease rigs, gloves, workstations; SaaS fees and maintenance</td><td>Adapted kits ¥20k–200k; gloves ¥5k–50k; workstations ¥100k–500k; SaaS ¥10k–200k/year</td></tr>
+            <tr><th>Scene operation &amp; data flywheel</th><td>Run robots in real factories/warehouses/retail; collect data while serving</td><td>RaaS ¥thousands–tens of thousands per robot/month; revenue/data-sharing 5–30%</td></tr>
+            <tr><th>Data evaluation &amp; certification</th><td>Third-party quality, standard-compliance and training-fitness checks</td><td>Still mostly internal; no public market prices yet</td></tr>
+        </table>
+        <p class="table-note">Source: <em>Embodied Data Development Report 2026</em> via The Paper. Custom collection remains the main revenue model; most suppliers sell one-off projects rather than reusable products.</p>
+        <p>Who sells? The report divides the field into <strong>data suppliers</strong> (Paxini, Lightwheel AI 光轮智能, Luming 鹿明, Lingchu 灵初, Mifei, Noyiterobot), <strong>platform traders</strong> (JD Cloud's embodied-data trading platform, Baidu Smart Cloud's "data supermarket" — commission models still unformed) and <strong>public-service operators</strong> (Shijingshan Beijing training center, the national innovation center). On the demand side, leading robot makers mostly self-collect; free open datasets dampen paid demand from model companies; and downstream scene customers are still at trial stage, unsure how to open business data or verify ROI. On the funding side, embodied-data pure-plays are drawing capital — Jianzhi Robot (简智机器人, Gen DAS rigs / Gen Matrix governance / Gen ADP production line) announced a $100M Series A+ on November 2, 2026.</p>
+
+        <h2>The controversy: "buy the robot, buy back the data"</h2>
+        <p>The fastest-growing model has also become the most contested. A typical arrangement: <strong>a local state-owned platform funds and builds a data center, buys robot hardware from a company, and the company then buys the data back</strong> — for its own model training or resale. On September 9, Mech-Mind founder Shao Tianlan publicly criticized "well-known, highly valued" embodied-AI companies for using such centers plus related-party deals with local governments, investors and suppliers to manufacture revenue ahead of IPOs.</p>
+        <p>Industry responses show a spectrum:</p>
+        <ul>
+          <li><strong>Defense:</strong> Lingyu Intelligent (灵御智能) co-founder &amp; CEO Jin Ge — whose own customers are ~50% data centers, ~30% JD 7FRESH-style real scenes and ~20% research/model firms, with centers+scenes contributing 70–80% of order revenue — calls the loop "order agriculture for data": state platforms hold the heavy assets, companies repurchase at below-market prices, and two-shift operation pays back a center in 8–9 months. He distinguishes it from "brushing orders" (fake revenue on useless data).</li>
+          <li><strong>Hard line:</strong> Songyan Dynamics founder Jiang Zheyuan says his company took zero data-center orders this year: "If they only buy the robot for collection, that's a real order. If they require you to buy data back, that's not real."</li>
+          <li><strong>Investor scrutiny:</strong> Shuinmu Capital chairman Tang Jingcao says state data demand has a genuine core (model training, policy incubation), but the key is operations — utilization, external data buyers. Due diligence now checks device uptime, power draw and maintenance records, traces who actually pays, and flags customers related to investors at unfair prices. "Worst case, we exclude that revenue from core valuation."</li>
+          <li><strong>Operating standard:</strong> the Shijingshan training center says sustainable collection needs three things — real industrial pull with data flowing back into real scenarios, high-dimensional (4D world-model) data assets rather than 2D trajectory clips, and a closed train/validate loop including failure samples.</li>
+        </ul>
+        <p>Using Shao's L0–L10 robot-readiness ladder, Jin Ge argues long-term-value revenue sits at L8–L10 (real terminal business), while much of today's industry is at L0–L3 demo stage — "the market is pricing mature-stage valuations on pre-L3 reality." Multiple insiders told Securities Daily-affiliated media that centers won't disappear — post-training still needs real-robot data — but they are receding from "protagonist of the valuation story" to "stepping stone of an early industry."</p>
+
+        <h2>What happens next</h2>
+        <p>Analysts expect the collection segment to keep compounding even as revenue scrutiny tightens. Zheshang Securities models the midstream data-collection market reaching <strong>¥174.1B by 2030</strong> (2026–30 CAGR ~203%), with upstream hardware at ¥15.3B; Guojin Securities argues collection equipment and services are the industry's clearest, most cash-stable business, and recommends suppliers with orders/capacity plus firms that platformize processing and extend into evaluation, post-training and deployment. For reference, the global benchmark Scale AI is valued at $29B.</p>
+        <p>China's answer to the data famine is still being built — and argued over. The OECD of this market, if one emerges, will be whoever can make the data flywheel real: robots in real scenes, data back into models, better robots into more scenes. National Data Administration adviser Ouyang Rihui predicts the industry will converge on high-quality interaction data from small samples, a virtual-real hybrid paradigm, and business models bound to scenes that recycle data continuously. For now, the "data infrastructure war" is quiet, provincial, and very large — and it will shape how fast Chinese robots actually learn to work.</p>
+
+<h2 id="faq">Frequently asked questions</h2>
+<h3>What is an embodied-AI data collection center?</h3>
+<p>A facility where operators teleoperate robots (via gamepads, VR or master arms) through mock homes, shops, factories or labs, recording vision, joint angles and force feedback frame by frame to train embodied models. China had 70+ operating centers by June 2026 and 106 built by August.</p>
+<h3>How much does embodied data cost?</h3>
+<p>Teleoperated real-robot data: ¥500–1,000/hour, dropping to ~¥275/hour of effective data at scale; portable/no-robot collection ¥100–200/hour; synthetic data ~1/100 the cost of real data. Standard dataset licenses run ¥10k–500k per set, industry-exclusive up to ¥5M.</p>
+<h3>Who are the main collection players?</h3>
+<p>The national Guodi network (10 grounds, Shanghai Qilin anchor), Zhiyuan/AgiBot (9), UBTECH and Paxini and Leju (5 each), Luming (3), and 12 companies with one each including JD, Realman, Galaxea, Xinghai, Lens and Zoomlion.</p>
+<h3>Is the 'buy robot, buy back data' model real?</h3>
+<p>State platforms do fund centers and buy hardware, and some companies repurchase data — critics call part of this manufactured revenue; defenders say it is legitimate if data is genuinely used and externally valued. Investors now scrub utilization, payments and related-party relationships, and may exclude such revenue from valuations.</p>
+<h3>Why is real robot data scarce?</h3>
+<p>Robots need physical multimodal interaction data that was never systematically recorded; analysts estimate a 90% gap versus mature-model needs, with one CAICT-linked estimate of 21,200 robot-years for 1.1 trillion tokens.</p>
+<p class="table-note" style="margin-top:24px;"><strong>Disclaimer:</strong> This article is independent editorial analysis based on CAICT's training-grounds report, the <em>Embodied Data Development Report 2026</em>, Zheshang/Guojin research notes and Chinese press coverage (Securities Daily / 科创板日报, The Paper, Jiemian, Xinhua, 36Kr). Market-size forecasts are broker estimates, not guarantees. Nothing here is investment advice.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Go deeper</span>
+        <h2>Related reading</h2>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <h3><a href="agibot-innovation-day-2026.html">AgiBot's Innovation Day 2026: 20,000 Robots and a New "Worken" Metric</a></h3>
+          <p>The leading humanoid maker's own collection-and-deployment playbook, including MEgo Glove and open datasets.</p>
+        </article>
+        <article class="card">
+          <h3><a href="us-listed-china-robotics-stocks.html">The China Robot Stock Wave</a></h3>
+          <p>How public markets are pricing the embodied-AI buildout.</p>
+        </article>
+        <article class="card">
+          <h3><a href="china-humanoid-actuator-suppliers.html">Humanoid Actuator Suppliers in China</a></h3>
+          <p>The hardware that the data flies back into.</p>
+        </article>
+        <article class="card">
+          <h3><a href="robot-startup-funding.html">Robot Startup Funding in China</a></h3>
+          <p>Where the money went as funding cooled in H2 2026.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Official links</span>
+        <h2>Sources</h2>
+      </div>
+      <ul class="prose" style="max-width:860px;">
+        <li>Securities Daily via 36Kr (center truth-investigation, Sept 30 2026): <a href="https://ad.36kr.com/p/4005634581155970" rel="nofollow noopener" target="_blank">具身智能数采中心真相调查：估值泡沫还是真实需求？ &#8599;</a></li>
+        <li>The Paper (Embodied Data Development Report 2026, Oct 26 2026): <a href="http://m.toutiao.com/group/7700886098842714662/" rel="nofollow noopener" target="_blank">产能增长与付费需求节奏不匹配，数据采集商业模式仍在找方向 &#8599;</a></li>
+        <li>Jiemian via Sina Finance (70+ training grounds, Sept 18 2026): <a href="https://finance.sina.com.cn/wm/2026-09-18/doc-inishenv3443602.shtml" rel="nofollow noopener" target="_blank">超70家训练场、千万小时数据：具身智能的"基建时代"来了 &#8599;</a></li>
+        <li>Securities Daily / 科创板日报 via NetEase (data gap &amp; market size, Nov 2 2026): <a href="http://m.163.com/dy/article/LANSTGI705198CJN.html" rel="nofollow noopener" target="_blank">数据局座谈会要求摸清"用数需求"，物理AI爆发前数采环节或先行 &#8599;</a></li>
+        <li>Xinhua ("training school" at the national innovation center): <a href="http://www2.xinhuanet.com/tech/20261009/505ddd1209b34d428aa0b81c34f737bd/c.html" rel="nofollow noopener" target="_blank">"特训学堂"为具身智能加注"数据燃料" &#8599;</a></li>
+        <li>Xinhua (Lightwheel AI on data infrastructure): <a href="http://www.news.cn/tech/20260720/bbf8b37cb1df48ed873b73701f63018c/c.html" rel="nofollow noopener" target="_blank">光轮智能夯实物理AI基础设施 &#8599;</a></li>
+        <li>UBTECH (data center solution &amp; company profile): <a href="https://www.ubtrobot.com/cn/humanoid/solutions/data-acquisition" rel="nofollow noopener" target="_blank">优必选具身智能数据采集解决方案 &#8599;</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band">
+        <div>
+          <h3>Follow China's embodied-AI buildout</h3>
+          <p>We are tracking the data, the models and the money behind Chinese robotics.</p>
+        </div>
+        <a class="btn btn-primary" href="articles.html">See all analysis</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a class="brand" href="index.html" style="color:#fff;">
+          <span>China Robotics <b style="color:#fbbf24;">Insider</b></span>
+        </a>
+        <p>An independent English-language guide to China's robotics industry — founders, companies, history and products.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="history.html">Development History</a>
+        <a href="people.html">Founders &amp; Key Figures</a>
+        <a href="companies.html">Companies &amp; Startups</a>
+        <a href="products.html">Cutting-edge Products</a>
+      </div>
+      <div>
+        <h4>Insights</h4>
+        <a href="articles.html">All Articles</a>
+        <a href="humanoid-robot-race.html">The Humanoid Robot Race</a>
+        <a href="china-robot-vacuums.html">Robot Vacuums</a>
+        <a href="china-industrial-robots.html">Industrial Robots</a>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="contact.html">Contact</a>
+        <a href="sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> China Robotics Insider. All rights reserved.</span>
+      <span>Independent editorial coverage · Not affiliated with any company listed.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
